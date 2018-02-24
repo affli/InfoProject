@@ -1,0 +1,15 @@
+c:\users\mohamad mroue\source\repos\KitBox\KitBox\bin\Debug\KitBox.exe.config
+c:\users\mohamad mroue\source\repos\KitBox\KitBox\bin\Debug\KitBox.exe
+c:\users\mohamad mroue\source\repos\KitBox\KitBox\bin\Debug\KitBox.pdb
+c:\users\mohamad mroue\source\repos\KitBox\KitBox\obj\Debug\KitBox.csprojResolveAssemblyReference.cache
+c:\users\mohamad mroue\source\repos\KitBox\KitBox\obj\Debug\KitBox.LaunchScreen.resources
+c:\users\mohamad mroue\source\repos\KitBox\KitBox\obj\Debug\KitBox.Properties.Resources.resources
+c:\users\mohamad mroue\source\repos\KitBox\KitBox\obj\Debug\KitBox.UI.resources
+c:\users\mohamad mroue\source\repos\KitBox\KitBox\obj\Debug\KitBox.csproj.GenerateResource.Cache
+c:\users\mohamad mroue\source\repos\KitBox\KitBox\obj\Debug\KitBox.csproj.CoreCompileInputs.cache
+c:\users\mohamad mroue\source\repos\KitBox\KitBox\obj\Debug\KitBox.exe
+c:\users\mohamad mroue\source\repos\KitBox\KitBox\obj\Debug\KitBox.pdb
+c:\users\mohamad mroue\source\repos\KitBox\KitBox\obj\Debug\KitBox.UIOrderManager.resources
+C:\Users\Mohamad Mroue\source\repos\KitBox\KitBox\bin\Debug\MySql.Data.dll
+C:\Users\Mohamad Mroue\source\repos\KitBox\KitBox\bin\Debug\MySql.Data.xml
+C:\Users\Mohamad Mroue\source\repos\KitBox\KitBox\obj\Debug\KitBox.UIRegister.resources

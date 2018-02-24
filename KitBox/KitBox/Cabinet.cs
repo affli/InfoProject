@@ -11,7 +11,7 @@ namespace KitBox
         private int NbLocker;
         private int Totalprice;
         private List<Product> Elements = new List<Product>();
-    
+
         public void AddLocker(int NbLocker)
         {
 

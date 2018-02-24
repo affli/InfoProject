@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.12
+VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KitBox", "KitBox\KitBox.csproj", "{76737188-6BC1-461F-896D-762408086D4C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KitBox", "KitBox\KitBox.csproj", "{1361174F-8925-4330-9967-F6304D6605BE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{76737188-6BC1-461F-896D-762408086D4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{76737188-6BC1-461F-896D-762408086D4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{76737188-6BC1-461F-896D-762408086D4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{76737188-6BC1-461F-896D-762408086D4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1361174F-8925-4330-9967-F6304D6605BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1361174F-8925-4330-9967-F6304D6605BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1361174F-8925-4330-9967-F6304D6605BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1361174F-8925-4330-9967-F6304D6605BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {C341D5E3-764E-477B-8B0B-2D40DA8573C8}
+		SolutionGuid = {752EB0A5-F0BD-489C-A64A-615617837FAD}
 	EndGlobalSection
 EndGlobal
