@@ -13,3 +13,4 @@ c:\users\mohamad mroue\source\repos\KitBox\KitBox\obj\Debug\KitBox.UIOrderManage
 C:\Users\Mohamad Mroue\source\repos\KitBox\KitBox\bin\Debug\MySql.Data.dll
 C:\Users\Mohamad Mroue\source\repos\KitBox\KitBox\bin\Debug\MySql.Data.xml
 C:\Users\Mohamad Mroue\source\repos\KitBox\KitBox\obj\Debug\KitBox.UIRegister.resources
+C:\Users\Mohamad Mroue\source\repos\KitBox\KitBox\obj\Debug\KitBox.UIUser.resources

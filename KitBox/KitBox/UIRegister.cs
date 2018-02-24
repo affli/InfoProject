@@ -37,27 +37,34 @@ namespace KitBox
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string insertQuery = "INSERT INTO client(name, email, password) VALUES('" + textBox1.Text + "','" + textBox2.Text + "','" + textBox3.Text + "')";
-            connection.Open();
-            MySqlCommand command = new MySqlCommand(insertQuery, connection);
-
-            try
+            if(textBox1.Text.Equals("") || textBox2.Text.Equals("") || textBox2.Text.Equals(""))
             {
-                if (command.ExecuteNonQuery() == 1)
-                {
-                    MessageBox.Show("Data Inserted");
-                }
-                else
-                {
-                    MessageBox.Show("Data Not Inserted");
-                }
+                MessageBox.Show("Please fill in all the boxes.", "Error",
+                MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-            catch (Exception ex)
+            else
             {
-                MessageBox.Show(ex.Message);
+                string insertQuery = "INSERT INTO client(name, email, password) VALUES('" + textBox1.Text + "','" + textBox2.Text + "','" + textBox3.Text + "')";
+                connection.Open();
+                MySqlCommand command = new MySqlCommand(insertQuery, connection);
+                connection.Close();
+
+                this.Controls.Clear();
+                this.Controls.Add(new UIUser());
             }
 
-            connection.Close();
+        }
+
+        private void UIRegister_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.BackgroundImage = null;
+            this.Controls.Clear();
+            this.Controls.Add(new UIOrderManager());
         }
     }
 }

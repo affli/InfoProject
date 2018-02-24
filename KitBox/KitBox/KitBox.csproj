@@ -100,6 +100,12 @@
     <Compile Include="UIRegister.Designer.cs">
       <DependentUpon>UIRegister.cs</DependentUpon>
     </Compile>
+    <Compile Include="UIUser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UIUser.Designer.cs">
+      <DependentUpon>UIUser.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -120,6 +126,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UIRegister.resx">
       <DependentUpon>UIRegister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIUser.resx">
+      <DependentUpon>UIUser.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -150,6 +159,9 @@
     <Content Include="docs\MySqlParameter.xml" />
     <Content Include="docs\MySqlParameterCollection.xml" />
     <Content Include="docs\MySqlTransaction.xml" />
+    <None Include="Resources\CO.png" />
+    <None Include="Resources\NC.png" />
+    <None Include="Resources\UI2.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

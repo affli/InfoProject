@@ -30,5 +30,10 @@ namespace KitBox
             this.Controls.Clear();
             this.Controls.Add(new UIRegister());
         }
+
+        private void UIOrderManager_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

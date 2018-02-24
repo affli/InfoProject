@@ -36,6 +36,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(873, 461);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "UI";
             this.ShowIcon = false;
             this.Load += new System.EventHandler(this.UI_Load);
