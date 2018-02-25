@@ -94,6 +94,12 @@
     <Compile Include="UIOrderManager.Designer.cs">
       <DependentUpon>UIOrderManager.cs</DependentUpon>
     </Compile>
+    <Compile Include="UIQS.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UIQS.Designer.cs">
+      <DependentUpon>UIQS.cs</DependentUpon>
+    </Compile>
     <Compile Include="UIRegister.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -124,6 +130,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UIOrderManager.resx">
       <DependentUpon>UIOrderManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIQS.resx">
+      <DependentUpon>UIQS.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UIRegister.resx">
       <DependentUpon>UIRegister.cs</DependentUpon>
@@ -160,8 +169,9 @@
     <Content Include="docs\MySqlParameter.xml" />
     <Content Include="docs\MySqlParameterCollection.xml" />
     <Content Include="docs\MySqlTransaction.xml" />
+    <None Include="Resources\floor.png" />
+    <None Include="Resources\phWpbWprWdlWdrW.png" />
     <None Include="Resources\Sign out.png" />
-    <None Include="Resources\Client_Id.png" />
     <None Include="Resources\CO.png" />
     <None Include="Resources\NC.png" />
     <None Include="Resources\UI2.png" />

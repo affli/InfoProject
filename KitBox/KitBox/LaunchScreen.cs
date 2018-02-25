@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Globalization;
 
 namespace KitBox
 {
@@ -26,7 +27,36 @@ namespace KitBox
 
         private void LaunchScreen_Load(object sender, EventArgs e)
         {
+            timer1.Start();
+            label2.Text = DateTime.Now.ToLongTimeString();
+            label3.Text = DateTime.Now.ToString("dd/MMM/yyyy", new CultureInfo("en"));
 
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("In development.\r\n", "KitBox");
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            label2.Text = DateTime.Now.ToLongTimeString();
+            timer1.Start();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("In development.\r\n", "KitBox");
         }
     }
 }

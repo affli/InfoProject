@@ -53,7 +53,7 @@ namespace KitBox
                     if (command.ExecuteNonQuery() == 1)
                     {
                         this.Controls.Clear();
-                        this.Controls.Add(new UIUser());
+                        this.Controls.Add(new UIQS());
                     }
                     else
                     {

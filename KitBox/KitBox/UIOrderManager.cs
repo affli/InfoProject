@@ -52,41 +52,57 @@ namespace KitBox
                 MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
-            Dictionary<string, string> userInfo = new Dictionary<string, string>();
-            this.connection = new MySqlConnection("server = localhost; uid = root; database = kitbox;");
-
-            try
+            else
             {
-                connection.Open();
-                MySqlCommand sqlCmd1 = new MySqlCommand("SELECT * FROM client WHERE client_id='" + textBox1.Text + "'", connection);
-                MySqlDataReader myReader = sqlCmd1.ExecuteReader();
-                while (myReader.Read())
+                Dictionary<string, string> userInfo = new Dictionary<string, string>();
+                this.connection = new MySqlConnection("server = localhost; uid = root; database = kitbox;");
+
+                try
                 {
-                    userInfo.Add("client_id", myReader.GetString(0));
-                    userInfo.Add("name", myReader.GetString(1));
+                    connection.Open();
+                    MySqlCommand sqlCmd1 = new MySqlCommand("SELECT * FROM client WHERE client_id='" + textBox1.Text + "'", connection);
+                    MySqlDataReader myReader = sqlCmd1.ExecuteReader();
+                    while (myReader.Read())
+                    {
+                        userInfo.Add("client_id", myReader.GetString(0));
+                        userInfo.Add("name", myReader.GetString(1));
+                    }
+
+                    string test = userInfo["client_id"];
+
+                    if (test == textBox1.Text)
+                    {
+                        this.BackgroundImage = null;
+                        this.Controls.Clear();
+                        this.Controls.Add(new UIQS());
+                    }
+                    else
+                    {
+                        MessageBox.Show("Please check your customer ID.", "Error",
+                        MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+
                 }
 
-                string test= userInfo["client_id"];
-
-                if (test == textBox1.Text)
-                {
-                    this.BackgroundImage = null;
-                    this.Controls.Clear();
-                    this.Controls.Add(new UIUser());
-                }
-                else
+                catch
                 {
                     MessageBox.Show("Please check your customer ID.", "Error",
                     MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
-
             }
+        }
 
-            catch
+        private void textBox1_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
             {
-                MessageBox.Show("Please check your customer ID.", "Error",
-                MessageBoxButtons.OK, MessageBoxIcon.Error);
+                button4.PerformClick();
             }
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("In development.\r\n", "KitBox");
         }
     }
 }

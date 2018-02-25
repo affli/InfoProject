@@ -1,32 +1,17 @@
-c:/users/mohamad mroue/source/repos/KitBox/KitBox/bin/Debug/KitBox.exe.config
-c:/users/mohamad mroue/source/repos/KitBox/KitBox/bin/Debug/KitBox.exe
-c:/users/mohamad mroue/source/repos/KitBox/KitBox/bin/Debug/KitBox.pdb
-c:/users/mohamad mroue/source/repos/KitBox/KitBox/obj/Debug/KitBox.csprojResolveAssemblyReference.cache
-c:/users/mohamad mroue/source/repos/KitBox/KitBox/obj/Debug/KitBox.LaunchScreen.resources
-c:/users/mohamad mroue/source/repos/KitBox/KitBox/obj/Debug/KitBox.Properties.Resources.resources
-c:/users/mohamad mroue/source/repos/KitBox/KitBox/obj/Debug/KitBox.UI.resources
-c:/users/mohamad mroue/source/repos/KitBox/KitBox/obj/Debug/KitBox.csproj.GenerateResource.Cache
-c:/users/mohamad mroue/source/repos/KitBox/KitBox/obj/Debug/KitBox.csproj.CoreCompileInputs.cache
-c:/users/mohamad mroue/source/repos/KitBox/KitBox/obj/Debug/KitBox.exe
-c:/users/mohamad mroue/source/repos/KitBox/KitBox/obj/Debug/KitBox.pdb
-c:/users/mohamad mroue/source/repos/KitBox/KitBox/obj/Debug/KitBox.UIOrderManager.resources
-C:/Users/Mohamad Mroue/source/repos/KitBox/KitBox/bin/Debug/MySql.Data.dll
-C:/Users/Mohamad Mroue/source/repos/KitBox/KitBox/bin/Debug/MySql.Data.xml
-C:/Users/Mohamad Mroue/source/repos/KitBox/KitBox/obj/Debug/KitBox.UIRegister.resources
-C:/Users/Mohamad Mroue/source/repos/KitBox/KitBox/obj/Debug/KitBox.UIUser.resources
-/Users/Eric/Documents/OneDrive - Haute Ecole Léonard de Vinci/ECAM 2017-2018/Projet informatique/Projet génie logiciel/Github KitBox/InfoProject/KitBox/KitBox/bin/Debug/KitBox.exe.config
-/Users/Eric/Documents/OneDrive - Haute Ecole Léonard de Vinci/ECAM 2017-2018/Projet informatique/Projet génie logiciel/Github KitBox/InfoProject/KitBox/KitBox/bin/Debug/KitBox.exe
-/Users/Eric/Documents/OneDrive - Haute Ecole Léonard de Vinci/ECAM 2017-2018/Projet informatique/Projet génie logiciel/Github KitBox/InfoProject/KitBox/KitBox/bin/Debug/KitBox.pdb
-/Users/Eric/Documents/OneDrive - Haute Ecole Léonard de Vinci/ECAM 2017-2018/Projet informatique/Projet génie logiciel/Github KitBox/InfoProject/KitBox/KitBox/bin/Debug/MySql.Data.dll
-/Users/Eric/Documents/OneDrive - Haute Ecole Léonard de Vinci/ECAM 2017-2018/Projet informatique/Projet génie logiciel/Github KitBox/InfoProject/KitBox/KitBox/bin/Debug/MySql.Data.xml
-/Users/Eric/Documents/OneDrive - Haute Ecole Léonard de Vinci/ECAM 2017-2018/Projet informatique/Projet génie logiciel/Github KitBox/InfoProject/KitBox/KitBox/obj/Debug/KitBox.csprojResolveAssemblyReference.cache
-/Users/Eric/Documents/OneDrive - Haute Ecole Léonard de Vinci/ECAM 2017-2018/Projet informatique/Projet génie logiciel/Github KitBox/InfoProject/KitBox/KitBox/obj/Debug/KitBox.LaunchScreen.resources
-/Users/Eric/Documents/OneDrive - Haute Ecole Léonard de Vinci/ECAM 2017-2018/Projet informatique/Projet génie logiciel/Github KitBox/InfoProject/KitBox/KitBox/obj/Debug/KitBox.Properties.Resources.resources
-/Users/Eric/Documents/OneDrive - Haute Ecole Léonard de Vinci/ECAM 2017-2018/Projet informatique/Projet génie logiciel/Github KitBox/InfoProject/KitBox/KitBox/obj/Debug/KitBox.UI.resources
-/Users/Eric/Documents/OneDrive - Haute Ecole Léonard de Vinci/ECAM 2017-2018/Projet informatique/Projet génie logiciel/Github KitBox/InfoProject/KitBox/KitBox/obj/Debug/KitBox.UIOrderManager.resources
-/Users/Eric/Documents/OneDrive - Haute Ecole Léonard de Vinci/ECAM 2017-2018/Projet informatique/Projet génie logiciel/Github KitBox/InfoProject/KitBox/KitBox/obj/Debug/KitBox.UIRegister.resources
-/Users/Eric/Documents/OneDrive - Haute Ecole Léonard de Vinci/ECAM 2017-2018/Projet informatique/Projet génie logiciel/Github KitBox/InfoProject/KitBox/KitBox/obj/Debug/KitBox.UIUser.resources
-/Users/Eric/Documents/OneDrive - Haute Ecole Léonard de Vinci/ECAM 2017-2018/Projet informatique/Projet génie logiciel/Github KitBox/InfoProject/KitBox/KitBox/obj/Debug/KitBox.csproj.GenerateResource.Cache
-/Users/Eric/Documents/OneDrive - Haute Ecole Léonard de Vinci/ECAM 2017-2018/Projet informatique/Projet génie logiciel/Github KitBox/InfoProject/KitBox/KitBox/obj/Debug/KitBox.csproj.CoreCompileInputs.cache
-/Users/Eric/Documents/OneDrive - Haute Ecole Léonard de Vinci/ECAM 2017-2018/Projet informatique/Projet génie logiciel/Github KitBox/InfoProject/KitBox/KitBox/obj/Debug/KitBox.exe
-/Users/Eric/Documents/OneDrive - Haute Ecole Léonard de Vinci/ECAM 2017-2018/Projet informatique/Projet génie logiciel/Github KitBox/InfoProject/KitBox/KitBox/obj/Debug/KitBox.pdb
+c:\users\mohamad mroue\source\repos\KitBox\KitBox\bin\Debug\KitBox.exe.config
+c:\users\mohamad mroue\source\repos\KitBox\KitBox\bin\Debug\KitBox.exe
+c:\users\mohamad mroue\source\repos\KitBox\KitBox\bin\Debug\KitBox.pdb
+c:\users\mohamad mroue\source\repos\KitBox\KitBox\obj\Debug\KitBox.csprojResolveAssemblyReference.cache
+c:\users\mohamad mroue\source\repos\KitBox\KitBox\obj\Debug\KitBox.LaunchScreen.resources
+c:\users\mohamad mroue\source\repos\KitBox\KitBox\obj\Debug\KitBox.Properties.Resources.resources
+c:\users\mohamad mroue\source\repos\KitBox\KitBox\obj\Debug\KitBox.UI.resources
+c:\users\mohamad mroue\source\repos\KitBox\KitBox\obj\Debug\KitBox.csproj.GenerateResource.Cache
+c:\users\mohamad mroue\source\repos\KitBox\KitBox\obj\Debug\KitBox.csproj.CoreCompileInputs.cache
+c:\users\mohamad mroue\source\repos\KitBox\KitBox\obj\Debug\KitBox.exe
+c:\users\mohamad mroue\source\repos\KitBox\KitBox\obj\Debug\KitBox.pdb
+c:\users\mohamad mroue\source\repos\KitBox\KitBox\obj\Debug\KitBox.UIOrderManager.resources
+C:\Users\Mohamad Mroue\source\repos\KitBox\KitBox\bin\Debug\MySql.Data.dll
+C:\Users\Mohamad Mroue\source\repos\KitBox\KitBox\bin\Debug\MySql.Data.xml
+C:\Users\Mohamad Mroue\source\repos\KitBox\KitBox\obj\Debug\KitBox.UIRegister.resources
+C:\Users\Mohamad Mroue\source\repos\KitBox\KitBox\obj\Debug\KitBox.UIUser.resources
+C:\Users\Mohamad Mroue\source\repos\KitBox\KitBox\obj\Debug\KitBox.UIQS.resources
