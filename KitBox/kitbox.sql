@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1:3306
--- Généré le :  sam. 24 fév. 2018 à 15:36
+-- Généré le :  Dim 25 fév. 2018 à 09:37
 -- Version du serveur :  5.7.19
 -- Version de PHP :  5.6.31
 
@@ -21,8 +21,6 @@ SET time_zone = "+00:00";
 --
 -- Base de données :  `kitbox`
 --
-CREATE DATABASE IF NOT EXISTS `kitbox` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
-USE `kitbox`;
 
 -- --------------------------------------------------------
 
@@ -35,7 +33,7 @@ CREATE TABLE IF NOT EXISTS `client` (
   `client_id` int(11) NOT NULL AUTO_INCREMENT,
   `name` varchar(30) NOT NULL,
   `email` varchar(30) DEFAULT NULL,
-  `password` varchar(30) NOT NULL,
+  `phonenum` varchar(30) NOT NULL,
   PRIMARY KEY (`client_id`)
 ) ENGINE=MyISAM AUTO_INCREMENT=25 DEFAULT CHARSET=utf8;
 COMMIT;
