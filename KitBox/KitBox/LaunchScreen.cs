@@ -23,5 +23,10 @@ namespace KitBox
             this.Controls.Clear();
             this.Controls.Add(new UIOrderManager());
         }
+
+        private void LaunchScreen_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

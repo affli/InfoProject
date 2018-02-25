@@ -16,5 +16,12 @@ namespace KitBox
         {
             InitializeComponent();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.BackgroundImage = null;
+            this.Controls.Clear();
+            this.Controls.Add(new LaunchScreen());
+        }
     }
 }

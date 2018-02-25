@@ -44,13 +44,31 @@ namespace KitBox
             }
             else
             {
-                string insertQuery = "INSERT INTO client(name, email, password) VALUES('" + textBox1.Text + "','" + textBox2.Text + "','" + textBox3.Text + "')";
-                connection.Open();
-                MySqlCommand command = new MySqlCommand(insertQuery, connection);
-                connection.Close();
+                try
+                {
+                    string insertQuery = "INSERT INTO client(name, email, phonenum) VALUES('" + textBox1.Text + "','" + textBox2.Text + "','" + textBox3.Text + "')";
+                    connection.Open();
+                    MySqlCommand command = new MySqlCommand(insertQuery, connection);
 
-                this.Controls.Clear();
-                this.Controls.Add(new UIUser());
+                    if (command.ExecuteNonQuery() == 1)
+                    {
+                        this.Controls.Clear();
+                        this.Controls.Add(new UIUser());
+                    }
+                    else
+                    {
+                        MessageBox.Show("Data Not Inserted.", "Error",
+                        MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
+
+                catch
+                {
+                    MessageBox.Show("Please don't forget to import the database to PHPMYADMIN!. READ the README file!\n\nData Not Inserted.", "Error",
+                    MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+
+                connection.Close();
             }
 
         }

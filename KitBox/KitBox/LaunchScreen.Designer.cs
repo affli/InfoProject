@@ -69,6 +69,7 @@
             this.Controls.Add(this.button1);
             this.Name = "LaunchScreen";
             this.Size = new System.Drawing.Size(889, 500);
+            this.Load += new System.EventHandler(this.LaunchScreen_Load);
             this.ResumeLayout(false);
 
         }
