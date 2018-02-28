@@ -63,6 +63,12 @@
     <Compile Include="Cleat.cs" />
     <Compile Include="Dimension.cs" />
     <Compile Include="Door.cs" />
+    <Compile Include="FH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FH.Designer.cs">
+      <DependentUpon>FH.cs</DependentUpon>
+    </Compile>
     <Compile Include="Glass_Door.cs" />
     <Compile Include="LaunchScreen.cs">
       <SubType>UserControl</SubType>
@@ -88,11 +94,35 @@
     <Compile Include="UI.Designer.cs">
       <DependentUpon>UI.cs</DependentUpon>
     </Compile>
-    <Compile Include="UIOrderManager.cs">
+    <Compile Include="UILogin.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UIOrderManager.Designer.cs">
-      <DependentUpon>UIOrderManager.cs</DependentUpon>
+    <Compile Include="UILogin.Designer.cs">
+      <DependentUpon>UILogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIManager.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UIManager.Designer.cs">
+      <DependentUpon>UIManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIManagerLogin.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UIManagerLogin.Designer.cs">
+      <DependentUpon>UIManagerLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIOrders.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UIOrders.Designer.cs">
+      <DependentUpon>UIOrders.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIProviders.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UIProviders.Designer.cs">
+      <DependentUpon>UIProviders.cs</DependentUpon>
     </Compile>
     <Compile Include="UIQS.cs">
       <SubType>UserControl</SubType>
@@ -106,6 +136,18 @@
     <Compile Include="UIRegister.Designer.cs">
       <DependentUpon>UIRegister.cs</DependentUpon>
     </Compile>
+    <Compile Include="UIStocks.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UIStocks.Designer.cs">
+      <DependentUpon>UIStocks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIUpdateCatalogue.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UIUpdateCatalogue.Designer.cs">
+      <DependentUpon>UIUpdateCatalogue.cs</DependentUpon>
+    </Compile>
     <Compile Include="UIUser.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -117,6 +159,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="FH.resx">
+      <DependentUpon>FH.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LaunchScreen.resx">
       <DependentUpon>LaunchScreen.cs</DependentUpon>
     </EmbeddedResource>
@@ -128,14 +173,32 @@
     <EmbeddedResource Include="UI.resx">
       <DependentUpon>UI.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UIOrderManager.resx">
-      <DependentUpon>UIOrderManager.cs</DependentUpon>
+    <EmbeddedResource Include="UILogin.resx">
+      <DependentUpon>UILogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIManager.resx">
+      <DependentUpon>UIManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIManagerLogin.resx">
+      <DependentUpon>UIManagerLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIOrders.resx">
+      <DependentUpon>UIOrders.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIProviders.resx">
+      <DependentUpon>UIProviders.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UIQS.resx">
       <DependentUpon>UIQS.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UIRegister.resx">
       <DependentUpon>UIRegister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIStocks.resx">
+      <DependentUpon>UIStocks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIUpdateCatalogue.resx">
+      <DependentUpon>UIUpdateCatalogue.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UIUser.resx">
       <DependentUpon>UIUser.cs</DependentUpon>
@@ -169,9 +232,10 @@
     <Content Include="docs\MySqlParameter.xml" />
     <Content Include="docs\MySqlParameterCollection.xml" />
     <Content Include="docs\MySqlTransaction.xml" />
-    <None Include="Resources\floor.png" />
-    <None Include="Resources\phWpbWprWdlWdrW.png" />
-    <None Include="Resources\Sign out.png" />
+    <None Include="Resources\delete.png" />
+    <None Include="Resources\modify.png" />
+    <None Include="Resources\add.png" />
+    <None Include="Resources\Cancel.png" />
     <None Include="Resources\CO.png" />
     <None Include="Resources\NC.png" />
     <None Include="Resources\UI2.png" />

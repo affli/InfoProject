@@ -19,7 +19,6 @@ namespace KitBox
 
         private void UI_Load(object sender, EventArgs e)
         {
-            this.Controls.Clear();
             this.Controls.Add(new LaunchScreen());
         }
     }

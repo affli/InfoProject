@@ -22,7 +22,7 @@ namespace KitBox
         {
             this.BackgroundImage = null;
             this.Controls.Clear();
-            this.Controls.Add(new UIOrderManager());
+            this.Controls.Add(new UILogin());
         }
 
         private void LaunchScreen_Load(object sender, EventArgs e)
@@ -56,7 +56,17 @@ namespace KitBox
 
         private void button2_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("In development.\r\n", "KitBox");
+            this.BackgroundImage = null;
+            this.Controls.Clear();
+            this.Controls.Add(new UIManagerLogin());
+        }
+
+        private void button1_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                button1.PerformClick();
+            }
         }
     }
 }

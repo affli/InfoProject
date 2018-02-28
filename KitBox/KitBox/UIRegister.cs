@@ -7,13 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using MySql.Data.MySqlClient;
+//using MySql.Data.MySqlClient;
 
 namespace KitBox
 {
     public partial class UIRegister : UserControl
     {
-        MySqlConnection connection = new MySqlConnection("server = localhost; uid = root; database = kitbox;");
+        //MySqlConnection connection = new MySqlConnection("server = localhost; uid = root; database = kitbox;");
 
         public UIRegister()
         {
@@ -44,31 +44,31 @@ namespace KitBox
             }
             else
             {
-                try
-                {
-                    string insertQuery = "INSERT INTO client(name, email, phonenum) VALUES('" + textBox1.Text + "','" + textBox2.Text + "','" + textBox3.Text + "')";
-                    connection.Open();
-                    MySqlCommand command = new MySqlCommand(insertQuery, connection);
+                //try
+                //{
+                //    string insertQuery = "INSERT INTO client(name, email, phonenum) VALUES('" + textBox1.Text + "','" + textBox2.Text + "','" + textBox3.Text + "')";
+                //    connection.Open();
+                //    MySqlCommand command = new MySqlCommand(insertQuery, connection);
 
-                    if (command.ExecuteNonQuery() == 1)
-                    {
-                        this.Controls.Clear();
-                        this.Controls.Add(new UIQS());
-                    }
-                    else
-                    {
-                        MessageBox.Show("Data Not Inserted.", "Error",
-                        MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    }
-                }
+                //    if (command.ExecuteNonQuery() == 1)
+                //    {
+                this.Controls.Clear();
+                this.Controls.Add(new UIQS());
+                //    }
+                //    else
+                //    {
+                //        MessageBox.Show("Data Not Inserted.", "Error",
+                //        MessageBoxButtons.OK, MessageBoxIcon.Error);
+                //    }
+                //}
 
-                catch
-                {
-                    MessageBox.Show("Please don't forget to import the database to PHPMYADMIN!. READ the README file!\n\nData Not Inserted.", "Error",
-                    MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
+                //catch
+                //{
+                //    MessageBox.Show("Please don't forget to import the database to PHPMYADMIN!.\n\nData Not Inserted.", "Error",
+                //    MessageBoxButtons.OK, MessageBoxIcon.Error);
+                //}
 
-                connection.Close();
+                //connection.Close();
             }
 
         }
@@ -82,7 +82,12 @@ namespace KitBox
         {
             this.BackgroundImage = null;
             this.Controls.Clear();
-            this.Controls.Add(new UIOrderManager());
+            this.Controls.Add(new UILogin());
+        }
+
+        private void label12_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("In development.\r\n", "KitBox");
         }
     }
 }
