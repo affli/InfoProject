@@ -31,5 +31,10 @@ namespace KitBox
             this.Controls.Clear();
             this.Controls.Add(new LaunchScreen());
         }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
