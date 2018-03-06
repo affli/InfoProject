@@ -3,10 +3,11 @@ C:\Users\Mohamad Mroue\source\repos\KitBox\KitBox\bin\Debug\KitBox.exe
 C:\Users\Mohamad Mroue\source\repos\KitBox\KitBox\bin\Debug\KitBox.pdb
 C:\Users\Mohamad Mroue\source\repos\KitBox\KitBox\bin\Debug\MySql.Data.dll
 C:\Users\Mohamad Mroue\source\repos\KitBox\KitBox\bin\Debug\MySql.Data.xml
-C:\Users\Mohamad Mroue\source\repos\KitBox\KitBox\obj\Debug\KitBox.csprojResolveAssemblyReference.cache
+C:\Users\Mohamad Mroue\source\repos\KitBox\KitBox\obj\Debug\KitBox.FH.resources
 C:\Users\Mohamad Mroue\source\repos\KitBox\KitBox\obj\Debug\KitBox.LaunchScreen.resources
 C:\Users\Mohamad Mroue\source\repos\KitBox\KitBox\obj\Debug\KitBox.Properties.Resources.resources
 C:\Users\Mohamad Mroue\source\repos\KitBox\KitBox\obj\Debug\KitBox.UI.resources
+C:\Users\Mohamad Mroue\source\repos\KitBox\KitBox\obj\Debug\KitBox.UIFinal.resources
 C:\Users\Mohamad Mroue\source\repos\KitBox\KitBox\obj\Debug\KitBox.UILogin.resources
 C:\Users\Mohamad Mroue\source\repos\KitBox\KitBox\obj\Debug\KitBox.UIManager.resources
 C:\Users\Mohamad Mroue\source\repos\KitBox\KitBox\obj\Debug\KitBox.UIManagerLogin.resources
@@ -17,8 +18,9 @@ C:\Users\Mohamad Mroue\source\repos\KitBox\KitBox\obj\Debug\KitBox.UIRegister.re
 C:\Users\Mohamad Mroue\source\repos\KitBox\KitBox\obj\Debug\KitBox.UIStocks.resources
 C:\Users\Mohamad Mroue\source\repos\KitBox\KitBox\obj\Debug\KitBox.UIUpdateCatalogue.resources
 C:\Users\Mohamad Mroue\source\repos\KitBox\KitBox\obj\Debug\KitBox.UIUser.resources
+C:\Users\Mohamad Mroue\source\repos\KitBox\KitBox\obj\Debug\KitBox.UIValidation.resources
 C:\Users\Mohamad Mroue\source\repos\KitBox\KitBox\obj\Debug\KitBox.csproj.GenerateResource.Cache
 C:\Users\Mohamad Mroue\source\repos\KitBox\KitBox\obj\Debug\KitBox.csproj.CoreCompileInputs.cache
 C:\Users\Mohamad Mroue\source\repos\KitBox\KitBox\obj\Debug\KitBox.exe
 C:\Users\Mohamad Mroue\source\repos\KitBox\KitBox\obj\Debug\KitBox.pdb
-C:\Users\Mohamad Mroue\source\repos\KitBox\KitBox\obj\Debug\KitBox.FH.resources
+C:\Users\Mohamad Mroue\source\repos\KitBox\KitBox\obj\Debug\KitBox.csprojResolveAssemblyReference.cache

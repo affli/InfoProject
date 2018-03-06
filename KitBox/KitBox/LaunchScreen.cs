@@ -18,40 +18,14 @@ namespace KitBox
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            this.BackgroundImage = null;
-            this.Controls.Clear();
-            this.Controls.Add(new UILogin());
-        }
-
         private void LaunchScreen_Load(object sender, EventArgs e)
         {
-            timer1.Start();
-            label2.Text = DateTime.Now.ToLongTimeString();
-            label3.Text = DateTime.Now.ToString("dd/MMM/yyyy", new CultureInfo("en"));
 
         }
 
         private void label1_Click(object sender, EventArgs e)
         {
             MessageBox.Show("In development.\r\n", "KitBox");
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void timer1_Tick(object sender, EventArgs e)
-        {
-            label2.Text = DateTime.Now.ToLongTimeString();
-            timer1.Start();
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -67,6 +41,47 @@ namespace KitBox
             {
                 button1.PerformClick();
             }
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            this.BackgroundImage = null;
+            this.Controls.Clear();
+            this.Controls.Add(new UILogin());
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            this.BackgroundImage = null;
+            this.Controls.Clear();
+            this.Controls.Add(new UIManagerLogin());
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.BackgroundImage = null;
+            this.Controls.Clear();
+            this.Controls.Add(new UILogin());
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox3_Click_1(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

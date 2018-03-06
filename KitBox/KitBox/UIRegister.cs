@@ -37,7 +37,7 @@ namespace KitBox
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if(textBox1.Text.Equals("") || textBox2.Text.Equals("") || textBox2.Text.Equals(""))
+            if(textBox1.Text.Equals("") || textBox2.Text.Equals("") || textBox3.Text.Equals(""))
             {
                 MessageBox.Show("Please fill in all the boxes.", "Error",
                 MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -78,16 +78,21 @@ namespace KitBox
 
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void label12_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("In development.\r\n", "KitBox");
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
         {
             this.BackgroundImage = null;
             this.Controls.Clear();
             this.Controls.Add(new UILogin());
         }
 
-        private void label12_Click(object sender, EventArgs e)
+        private void pictureBox6_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("In development.\r\n", "KitBox");
+            Application.Exit();
         }
     }
 }

@@ -22,40 +22,49 @@ namespace KitBox
 
         private void UIQS_Load(object sender, EventArgs e)
         {
-            connection.Open();
-            MySqlCommand sqlCmd2 = new MySqlCommand("SELECT floor FROM floor", connection);
-            MySqlDataReader myReader2 = sqlCmd2.ExecuteReader();
-
-            while (myReader2.Read())
+            try
             {
-                this.comboBox1.Items.Add(myReader2.GetString(0));
+                connection.Open();
+                MySqlCommand sqlCmd2 = new MySqlCommand("SELECT floor FROM floor", connection);
+                MySqlDataReader myReader2 = sqlCmd2.ExecuteReader();
+
+                while (myReader2.Read())
+                {
+                    this.comboBox1.Items.Add(myReader2.GetString(0));
+                }
+                connection.Close();
+
+                connection.Open();
+                MySqlCommand sqlCmd3 = new MySqlCommand("SELECT width FROM width", connection);
+                MySqlDataReader myReader3 = sqlCmd3.ExecuteReader();
+
+                while (myReader3.Read())
+                {
+                    this.comboBox2.Items.Add(myReader3.GetString(0));
+                }
+                connection.Close();
+
+                connection.Open();
+                MySqlCommand sqlCmd4 = new MySqlCommand("SELECT depth FROM depth", connection);
+                MySqlDataReader myReader4 = sqlCmd4.ExecuteReader();
+
+                while (myReader4.Read())
+                {
+                    this.comboBox3.Items.Add(myReader4.GetString(0));
+                }
+                connection.Close();
             }
-            connection.Close();
-
-            connection.Open();
-            MySqlCommand sqlCmd3 = new MySqlCommand("SELECT width FROM width", connection);
-            MySqlDataReader myReader3 = sqlCmd3.ExecuteReader();
-
-            while (myReader3.Read())
+            catch
             {
-                this.comboBox2.Items.Add(myReader3.GetString(0));
+                MessageBox.Show("Please don't forget to import the database to PHPMYADMIN!.\n\nVerify connection.", "Error",
+                MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-            connection.Close();
 
-            connection.Open();
-            MySqlCommand sqlCmd4 = new MySqlCommand("SELECT depth FROM depth", connection);
-            MySqlDataReader myReader4 = sqlCmd4.ExecuteReader();
-
-            while (myReader4.Read())
-            {
-                this.comboBox3.Items.Add(myReader4.GetString(0));
-            }
-            connection.Close();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (comboBox1.Text.Equals("") || comboBox2.Text.Equals("") || comboBox3.Text.Equals(""))
+            if (comboBox1.Text.Equals("") || comboBox2.Text.Equals("") || comboBox3.Text.Equals("") || comboBox4.Text.Equals(""))
             {
                 MessageBox.Show("Please fill in your choices.", "Error",
                 MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -65,7 +74,7 @@ namespace KitBox
             {
                 this.BackgroundImage = null;
                 this.Controls.Clear();
-                this.Controls.Add(new UIUser(comboBox1.Text));
+                this.Controls.Add(new UIUser(comboBox1.Text, comboBox2.Text, comboBox3.Text, comboBox4.Text));
             }
         }
 
@@ -89,11 +98,21 @@ namespace KitBox
 
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void comboBox4_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
         {
             this.BackgroundImage = null;
             this.Controls.Clear();
             this.Controls.Add(new LaunchScreen());
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

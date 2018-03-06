@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Globalization;
 using MySql.Data.MySqlClient;
 
 namespace KitBox
@@ -18,13 +19,6 @@ namespace KitBox
         public UILogin()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            this.BackgroundImage = null;
-            this.Controls.Clear();
-            this.Controls.Add(new LaunchScreen());
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -103,5 +97,18 @@ namespace KitBox
         {
             MessageBox.Show("In development.\r\n", "KitBox");
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            this.BackgroundImage = null;
+            this.Controls.Clear();
+            this.Controls.Add(new LaunchScreen());
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
     }
 }
