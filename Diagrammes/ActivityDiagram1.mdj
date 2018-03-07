@@ -5935,18 +5935,6 @@
 				},
 				{
 					"_type": "UMLAction",
-					"_id": "AAAAAAFht4RY8YlZWb0=",
-					"_parent": {
-						"$ref": "AAAAAAFhb31v8I8NF8g="
-					},
-					"name": "Action1",
-					"visibility": "public",
-					"kind": "opaque",
-					"isLocallyReentrant": false,
-					"isSynchronous": true
-				},
-				{
-					"_type": "UMLAction",
 					"_id": "AAAAAAFhb6wtFpK+aUI=",
 					"_parent": {
 						"$ref": "AAAAAAFhb31v8I8NF8g="
