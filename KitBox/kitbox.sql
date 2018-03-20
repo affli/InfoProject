@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1:3306
--- Généré le :  Dim 25 fév. 2018 à 09:37
+-- Généré le :  mar. 06 mars 2018 à 19:43
 -- Version du serveur :  5.7.19
 -- Version de PHP :  5.6.31
 
@@ -37,7 +37,104 @@ CREATE TABLE IF NOT EXISTS `client` (
   `email` varchar(30) DEFAULT NULL,
   `phonenum` varchar(30) NOT NULL,
   PRIMARY KEY (`client_id`)
-) ENGINE=MyISAM AUTO_INCREMENT=25 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=37 DEFAULT CHARSET=utf8;
+
+-- --------------------------------------------------------
+
+--
+-- Structure de la table `depth`
+--
+
+DROP TABLE IF EXISTS `depth`;
+CREATE TABLE IF NOT EXISTS `depth` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `depth` int(100) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=5 DEFAULT CHARSET=latin1;
+
+--
+-- Déchargement des données de la table `depth`
+--
+
+INSERT INTO `depth` (`id`, `depth`) VALUES
+(1, 32),
+(2, 42),
+(3, 52),
+(4, 62);
+
+-- --------------------------------------------------------
+
+--
+-- Structure de la table `floor`
+--
+
+DROP TABLE IF EXISTS `floor`;
+CREATE TABLE IF NOT EXISTS `floor` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `floor` int(100) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=8 DEFAULT CHARSET=latin1;
+
+--
+-- Déchargement des données de la table `floor`
+--
+
+INSERT INTO `floor` (`id`, `floor`) VALUES
+(1, 1),
+(2, 2),
+(3, 3),
+(4, 4),
+(5, 5),
+(6, 6),
+(7, 7);
+
+-- --------------------------------------------------------
+
+--
+-- Structure de la table `heights`
+--
+
+DROP TABLE IF EXISTS `heights`;
+CREATE TABLE IF NOT EXISTS `heights` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `heights` int(100) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=9 DEFAULT CHARSET=latin1;
+
+--
+-- Déchargement des données de la table `heights`
+--
+
+INSERT INTO `heights` (`id`, `heights`) VALUES
+(1, 32),
+(2, 42),
+(3, 52);
+
+-- --------------------------------------------------------
+
+--
+-- Structure de la table `width`
+--
+
+DROP TABLE IF EXISTS `width`;
+CREATE TABLE IF NOT EXISTS `width` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `width` int(255) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=8 DEFAULT CHARSET=latin1;
+
+--
+-- Déchargement des données de la table `width`
+--
+
+INSERT INTO `width` (`id`, `width`) VALUES
+(1, 32),
+(2, 42),
+(3, 52),
+(4, 62),
+(5, 80),
+(6, 100),
+(7, 120);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
