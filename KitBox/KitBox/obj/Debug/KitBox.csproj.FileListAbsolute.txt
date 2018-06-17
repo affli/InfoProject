@@ -1,26 +1,64 @@
+C:\Users\Mohamad Mroue\source\repos\KitBox\KitBox\obj\Debug\KitBox.csprojResolveAssemblyReference.cache
+C:\Users\Mohamad Mroue\source\repos\KitBox\KitBox\obj\Debug\KitBox.LaunchScreen.resources
+C:\Users\Mohamad Mroue\source\repos\KitBox\KitBox\obj\Debug\KitBox.Properties.Resources.resources
+C:\Users\Mohamad Mroue\source\repos\KitBox\KitBox\obj\Debug\KitBox.UI.resources
+C:\Users\Mohamad Mroue\source\repos\KitBox\KitBox\obj\Debug\KitBox.UIChoose.resources
+C:\Users\Mohamad Mroue\source\repos\KitBox\KitBox\obj\Debug\KitBox.UILogin.resources
+C:\Users\Mohamad Mroue\source\repos\KitBox\KitBox\obj\Debug\KitBox.UIValidate.resources
+C:\Users\Mohamad Mroue\source\repos\KitBox\KitBox\obj\Debug\KitBox.csproj.GenerateResource.Cache
+C:\Users\Mohamad Mroue\source\repos\KitBox\KitBox\obj\Debug\KitBox.csproj.CoreCompileInputs.cache
 C:\Users\Mohamad Mroue\source\repos\KitBox\KitBox\bin\Debug\KitBox.exe.config
 C:\Users\Mohamad Mroue\source\repos\KitBox\KitBox\bin\Debug\KitBox.exe
 C:\Users\Mohamad Mroue\source\repos\KitBox\KitBox\bin\Debug\KitBox.pdb
 C:\Users\Mohamad Mroue\source\repos\KitBox\KitBox\bin\Debug\MySql.Data.dll
 C:\Users\Mohamad Mroue\source\repos\KitBox\KitBox\bin\Debug\MySql.Data.xml
-C:\Users\Mohamad Mroue\source\repos\KitBox\KitBox\obj\Debug\KitBox.FH.resources
-C:\Users\Mohamad Mroue\source\repos\KitBox\KitBox\obj\Debug\KitBox.LaunchScreen.resources
-C:\Users\Mohamad Mroue\source\repos\KitBox\KitBox\obj\Debug\KitBox.Properties.Resources.resources
-C:\Users\Mohamad Mroue\source\repos\KitBox\KitBox\obj\Debug\KitBox.UI.resources
-C:\Users\Mohamad Mroue\source\repos\KitBox\KitBox\obj\Debug\KitBox.UIFinal.resources
-C:\Users\Mohamad Mroue\source\repos\KitBox\KitBox\obj\Debug\KitBox.UILogin.resources
-C:\Users\Mohamad Mroue\source\repos\KitBox\KitBox\obj\Debug\KitBox.UIManager.resources
-C:\Users\Mohamad Mroue\source\repos\KitBox\KitBox\obj\Debug\KitBox.UIManagerLogin.resources
-C:\Users\Mohamad Mroue\source\repos\KitBox\KitBox\obj\Debug\KitBox.UIOrders.resources
-C:\Users\Mohamad Mroue\source\repos\KitBox\KitBox\obj\Debug\KitBox.UIProviders.resources
-C:\Users\Mohamad Mroue\source\repos\KitBox\KitBox\obj\Debug\KitBox.UIQS.resources
-C:\Users\Mohamad Mroue\source\repos\KitBox\KitBox\obj\Debug\KitBox.UIRegister.resources
-C:\Users\Mohamad Mroue\source\repos\KitBox\KitBox\obj\Debug\KitBox.UIStocks.resources
-C:\Users\Mohamad Mroue\source\repos\KitBox\KitBox\obj\Debug\KitBox.UIUpdateCatalogue.resources
-C:\Users\Mohamad Mroue\source\repos\KitBox\KitBox\obj\Debug\KitBox.UIUser.resources
-C:\Users\Mohamad Mroue\source\repos\KitBox\KitBox\obj\Debug\KitBox.UIValidation.resources
-C:\Users\Mohamad Mroue\source\repos\KitBox\KitBox\obj\Debug\KitBox.csproj.GenerateResource.Cache
-C:\Users\Mohamad Mroue\source\repos\KitBox\KitBox\obj\Debug\KitBox.csproj.CoreCompileInputs.cache
 C:\Users\Mohamad Mroue\source\repos\KitBox\KitBox\obj\Debug\KitBox.exe
 C:\Users\Mohamad Mroue\source\repos\KitBox\KitBox\obj\Debug\KitBox.pdb
-C:\Users\Mohamad Mroue\source\repos\KitBox\KitBox\obj\Debug\KitBox.csprojResolveAssemblyReference.cache
+C:\Users\Mohamad Mroue\Desktop\KitBox\KitBox\obj\Debug\KitBox.csprojResolveAssemblyReference.cache
+C:\Users\Mohamad Mroue\Desktop\KitBox\KitBox\obj\Debug\KitBox.LaunchScreen.resources
+C:\Users\Mohamad Mroue\Desktop\KitBox\KitBox\obj\Debug\KitBox.UI.resources
+C:\Users\Mohamad Mroue\Desktop\KitBox\KitBox\obj\Debug\KitBox.UIValidate.resources
+C:\Users\Mohamad Mroue\Desktop\KitBox\KitBox\obj\Debug\KitBox.csproj.GenerateResource.Cache
+C:\Users\Mohamad Mroue\Desktop\KitBox\KitBox\obj\Debug\KitBox.exe
+C:\Users\Mohamad Mroue\Desktop\KitBox\KitBox\obj\Debug\KitBox.pdb
+C:\Users\Mohamad Mroue\Desktop\KitBox\KitBox\bin\Debug\KitBox.exe.config
+C:\Users\Mohamad Mroue\Desktop\KitBox\KitBox\bin\Debug\KitBox.exe
+C:\Users\Mohamad Mroue\Desktop\KitBox\KitBox\bin\Debug\KitBox.pdb
+C:\Users\Mohamad Mroue\Desktop\KitBox\KitBox\bin\Debug\MySql.Data.dll
+C:\Users\Mohamad Mroue\Desktop\KitBox\KitBox\bin\Debug\MySql.Data.xml
+C:\Users\Mohamad Mroue\Desktop\KitBox\KitBox\obj\Debug\KitBox.Properties.Resources.resources
+C:\Users\Mohamad Mroue\Desktop\KitBox\KitBox\obj\Debug\KitBox.csproj.CoreCompileInputs.cache
+C:\Users\Mohamad Mroue\Desktop\KitBox\KitBox\obj\Debug\KitBox.UINewOrder.resources
+C:\Users\Mohamad Mroue\Desktop\KitBox\KitBox\obj\Debug\KitBox.UIManagerLogin.resources
+C:\Users\Mohamad Mroue\Desktop\KitBox\KitBox\obj\Debug\KitBox.UIManager.resources
+C:\Users\Mohamad Mroue\Desktop\KitBox\KitBox\obj\Debug\KitBox.UILogin.resources
+C:\Users\Mohamad Mroue\Desktop\KitBox\KitBox\obj\Debug\KitBox.UINewCustomer.resources
+C:\Users\Mohamad Mroue\Desktop\KitBox\KitBox\obj\Debug\KitBox.UICatalogue.resources
+C:\Users\Mohamad Mroue\Desktop\KitBox\KitBox\obj\Debug\KitBox.UIOrders.resources
+C:\Users\Mohamad Mroue\Desktop\KitBox\KitBox\obj\Debug\KitBox.UIProviders.resources
+C:\Users\Mohamad Mroue\Desktop\KitBox\KitBox\obj\Debug\KitBox.UIStocks.resources
+C:\Users\Mohamad Mroue\Desktop\KitBox\KitBox\obj\Debug\KitBox.UIAddProvider.resources
+D:\3BA_GE\P2\Projet Info\Projet Mohamed\KitBox\bin\Debug\KitBox.exe.config
+D:\3BA_GE\P2\Projet Info\Projet Mohamed\KitBox\bin\Debug\KitBox.exe
+D:\3BA_GE\P2\Projet Info\Projet Mohamed\KitBox\bin\Debug\KitBox.pdb
+D:\3BA_GE\P2\Projet Info\Projet Mohamed\KitBox\bin\Debug\MySql.Data.dll
+D:\3BA_GE\P2\Projet Info\Projet Mohamed\KitBox\bin\Debug\MySql.Data.xml
+D:\3BA_GE\P2\Projet Info\Projet Mohamed\KitBox\obj\Debug\KitBox.csprojResolveAssemblyReference.cache
+D:\3BA_GE\P2\Projet Info\Projet Mohamed\KitBox\obj\Debug\KitBox.LaunchScreen.resources
+D:\3BA_GE\P2\Projet Info\Projet Mohamed\KitBox\obj\Debug\KitBox.UICatalogue.resources
+D:\3BA_GE\P2\Projet Info\Projet Mohamed\KitBox\obj\Debug\KitBox.UIOrders.resources
+D:\3BA_GE\P2\Projet Info\Projet Mohamed\KitBox\obj\Debug\KitBox.UIProviders.resources
+D:\3BA_GE\P2\Projet Info\Projet Mohamed\KitBox\obj\Debug\KitBox.UIStocks.resources
+D:\3BA_GE\P2\Projet Info\Projet Mohamed\KitBox\obj\Debug\KitBox.Properties.Resources.resources
+D:\3BA_GE\P2\Projet Info\Projet Mohamed\KitBox\obj\Debug\KitBox.UI.resources
+D:\3BA_GE\P2\Projet Info\Projet Mohamed\KitBox\obj\Debug\KitBox.UIManagerLogin.resources
+D:\3BA_GE\P2\Projet Info\Projet Mohamed\KitBox\obj\Debug\KitBox.UIAddProvider.resources
+D:\3BA_GE\P2\Projet Info\Projet Mohamed\KitBox\obj\Debug\KitBox.UILogin.resources
+D:\3BA_GE\P2\Projet Info\Projet Mohamed\KitBox\obj\Debug\KitBox.UIManager.resources
+D:\3BA_GE\P2\Projet Info\Projet Mohamed\KitBox\obj\Debug\KitBox.UINewCustomer.resources
+D:\3BA_GE\P2\Projet Info\Projet Mohamed\KitBox\obj\Debug\KitBox.UINewOrder.resources
+D:\3BA_GE\P2\Projet Info\Projet Mohamed\KitBox\obj\Debug\KitBox.UIValidate.resources
+D:\3BA_GE\P2\Projet Info\Projet Mohamed\KitBox\obj\Debug\KitBox.csproj.GenerateResource.Cache
+D:\3BA_GE\P2\Projet Info\Projet Mohamed\KitBox\obj\Debug\KitBox.csproj.CoreCompileInputs.cache
+D:\3BA_GE\P2\Projet Info\Projet Mohamed\KitBox\obj\Debug\KitBox.exe
+D:\3BA_GE\P2\Projet Info\Projet Mohamed\KitBox\obj\Debug\KitBox.pdb

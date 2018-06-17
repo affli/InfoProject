@@ -118,64 +118,145 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="table_room_wall_cabinet_76164_1920x1080" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\table_room_wall_cabinet_76164_1920x1080.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="White_White_Glass" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\White_White_Glass.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Sans titre 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Sans titre 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Brown_White_White_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Brown_White_White_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Menu_64px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Menu_64px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="White_White_Brown_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\White_White_Brown_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Chevron Right_52px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Chevron Right_52px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Brown_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Brown_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Help_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Help_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="White_Brown_White" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\White_Brown_White.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Manager_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Manager_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Brown_White_White" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Brown_White_White.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Door_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Door_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="storekeeper" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\storekeeper.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Add_64px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Add_64px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Brown_White_Glass_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Brown_White_Glass_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="free-garden-backgrounds-4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\free-garden-backgrounds-4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="White_White_White_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\White_White_White_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Delete_64px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Delete_64px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Brown_Glass_Brown_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Brown_Glass_Brown_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Password_64px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Password_64px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="White_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\White_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Back_64px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Back_64px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="White_Brown_Brown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\White_Brown_Brown.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="About_52px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\About_52px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Brown_Glass_Brown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Brown_Glass_Brown.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Restart_64px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Restart_64px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="White_Glass_Brown_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\White_Glass_Brown_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Enter Key_64px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Enter Key_64px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Brown_White_Brown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Brown_White_Brown.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Sign Out_50px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Sign Out_50px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Brown_Brown_Glass" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Brown_Brown_Glass.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="New Copy_64px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\New Copy_64px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="login" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\login.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Customer_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Customer_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="White_Brown_Glass_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\White_Brown_Glass_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="table_office_chairs_glass_window_39163_1920x1080" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\table_office_chairs_glass_window_39163_1920x1080.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="White_Glass_White" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\White_Glass_White.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Edit Property_52px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Edit Property_52px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Brown_Brown_Brown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Brown_Brown_Brown.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="White_Glass_Glass_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\White_Glass_Glass_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Brown_Glass_White_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Brown_Glass_White_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Brown_Glass_Glass_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Brown_Glass_Glass_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="White_Glass_White_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\White_Glass_White_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Brown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Brown.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Brown_Brown_White" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Brown_Brown_White.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="neworder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\neworder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="White_Brown_Glass" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\White_Brown_Glass.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="empty" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\empty.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Brown_White_Brown_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Brown_White_Brown_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="White_Glass_Brown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\White_Glass_Brown.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Brown_Glass_Glass" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Brown_Glass_Glass.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Brown_Brown_Brown_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Brown_Brown_Brown_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Brown_White_Glass" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Brown_White_Glass.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="White_Glass_Glass" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\White_Glass_Glass.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Brown_Glass_White" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Brown_Glass_White.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="White" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\White.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="view" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\view.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="White_White_White" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\White_White_White.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="White_Brown_White_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\White_Brown_White_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Brown_Brown_Glass_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Brown_Brown_Glass_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="newuser" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\newuser.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Brown_Brown_White_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Brown_Brown_White_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="White_White_Brown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\White_White_Brown.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="White_White_Glass_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\White_White_Glass_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="White_Brown_Brown_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\White_Brown_Brown_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="manager" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\manager.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

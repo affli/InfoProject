@@ -17,14 +17,9 @@ namespace KitBox
             InitializeComponent();
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        private void enter_button_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            if(textBox1.Text == "manager")
+            if (password_textbox.Text == "manager")
             {
                 this.BackgroundImage = null;
                 this.Controls.Clear();
@@ -36,31 +31,20 @@ namespace KitBox
                 MessageBox.Show("Please enter a valid password.", "Error",
                 MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+            
         }
 
-        private void textBox1_KeyDown(object sender, KeyEventArgs e)
+        private void enter_button_MouseEnter(object sender, EventArgs e)
+        {
+            enter_button.Cursor = Cursors.Hand;
+        }
+
+        private void password_textbox_KeyDown(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Enter)
             {
-                button2.PerformClick();
+                enter_button.PerformClick();
             }
-        }
-
-        private void pictureBox2_Click(object sender, EventArgs e)
-        {
-            this.BackgroundImage = null;
-            this.Controls.Clear();
-            this.Controls.Add(new LaunchScreen());
-        }
-
-        private void pictureBox3_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
-        }
-
-        private void panel2_Paint(object sender, PaintEventArgs e)
-        {
-
         }
     }
 }
