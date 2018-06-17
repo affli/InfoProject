@@ -7,7 +7,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Globalization;
 
 namespace KitBox
 {
@@ -18,70 +17,28 @@ namespace KitBox
             InitializeComponent();
         }
 
-        private void LaunchScreen_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("In development.\r\n", "KitBox");
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            this.BackgroundImage = null;
-            this.Controls.Clear();
-            this.Controls.Add(new UIManagerLogin());
-        }
-
-        private void button1_KeyDown(object sender, KeyEventArgs e)
-        {
-            if (e.KeyCode == Keys.Enter)
-            {
-                button1.PerformClick();
-            }
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
+        private void new_order_button_Click(object sender, EventArgs e)
         {
             this.BackgroundImage = null;
             this.Controls.Clear();
             this.Controls.Add(new UILogin());
         }
 
-        private void pictureBox2_Click(object sender, EventArgs e)
+        private void storekeeper_button_Click(object sender, EventArgs e)
         {
             this.BackgroundImage = null;
             this.Controls.Clear();
             this.Controls.Add(new UIManagerLogin());
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void new_order_button_MouseEnter(object sender, EventArgs e)
         {
-            this.BackgroundImage = null;
-            this.Controls.Clear();
-            this.Controls.Add(new UILogin());
+            new_order_button.Cursor = Cursors.Hand;
         }
 
-        private void pictureBox3_Click(object sender, EventArgs e)
+        private void storekeeper_button_MouseEnter(object sender, EventArgs e)
         {
-
-        }
-
-        private void pictureBox3_Click_1(object sender, EventArgs e)
-        {
-            Application.Exit();
-        }
-
-        private void button5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox6_Click(object sender, EventArgs e)
-        {
-
+            storekeeper_button.Cursor = Cursors.Hand;
         }
     }
 }

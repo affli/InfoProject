@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace KitBox
 {
-    class Glass_Door : Door
+    class Glass_Door// : Door
     {
+        public Glass_Door()
+        {
+
+        }
     }
 }

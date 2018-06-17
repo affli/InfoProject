@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace KitBox
 {
-    class Cleat : Product
+    public class Cleat : Product
     {
-        private string Orientation;
+        string Orientation = "vertical";
     }
 }

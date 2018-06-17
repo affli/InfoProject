@@ -6,7 +6,18 @@ using System.Threading.Tasks;
 
 namespace KitBox
 {
-    class Support_Angle : Product
+    public class Support_Angle : Product
     {
+        string color;
+
+        public void Setcolor(string color)
+        {
+            this.color = color;
+        }
+
+        public string Getcolor()
+        {
+            return color;
+        }
     }
 }

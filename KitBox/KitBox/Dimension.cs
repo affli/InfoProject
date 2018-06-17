@@ -8,8 +8,8 @@ namespace KitBox
 {
     public interface Dimension
     {
-        int Height { get; set; }
-        int Width { get; set; }
-        int Depth { get; set; }
+        int height { get; set; }
+        int width { get; set; }
+        int depth { get; set; }
     }
 }

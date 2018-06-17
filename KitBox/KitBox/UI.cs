@@ -12,6 +12,8 @@ namespace KitBox
 {
     public partial class UI : Form
     {
+        public static Cabinet furniture = new Cabinet();
+
         public UI()
         {
             InitializeComponent();
@@ -20,6 +22,11 @@ namespace KitBox
         private void UI_Load(object sender, EventArgs e)
         {
             this.Controls.Add(new LaunchScreen());
+        }
+
+        public static Cabinet Cabinet()
+        {
+            return furniture;
         }
     }
 }

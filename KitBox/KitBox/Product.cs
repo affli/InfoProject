@@ -6,11 +6,26 @@ using System.Threading.Tasks;
 
 namespace KitBox
 {
-    class Product : Dimension
+    public class Product : Dimension
     {
         public int Price { get; set; }
-        public int Height { get; set; }
-        public int Width { get; set; }
-        public int Depth { get; set; }
+        public int height { get; set; }
+        public int width { get; set; }
+        public int depth { get; set; }
+
+        public void Setdepth(int value)
+        {
+            this.depth = value;
+        }
+
+        public void Setheight(int value)
+        {
+            this.height = value;
+        }
+
+        public void Setwidth(int value)
+        {
+            this.width = value;
+        }
     }
 }

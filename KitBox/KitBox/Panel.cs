@@ -6,8 +6,15 @@ using System.Threading.Tasks;
 
 namespace KitBox
 {
-    class Panel : Product
+    public class Panel : Product
     {
-        private string Orientation;
+        string Orientation;
+        string color;
+
+        public Panel(string ori, string col)
+        {
+            this.Orientation = ori;
+            this.color = col;
+        }
     }
 }
