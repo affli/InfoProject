@@ -42,8 +42,16 @@ namespace KitBox
             {
                 label1.Text += string.Format("{0}, {1}" + "\n", "Casier", i);
                 label1.Text += string.Format("{0}, {1}" + "\n", "Couleur", lockeur.Getcolor());
-                label1.Text += string.Format("{0}, {1}" + "\n", "Couleur Porte Gauche", lockeur.Getdoors()[0].Gettype());
-                label1.Text += string.Format("{0}, {1}" + "\n", "Couleur Porte Droite", lockeur.Getdoors()[1].Gettype());
+                if (lockeur.Getdoors().Count == 0)
+                {
+                    label1.Text += string.Format("{0}, {1}" + "\n", "Pas de Porte", "");
+                }
+                else
+                {
+                    label1.Text += string.Format("{0}, {1}" + "\n", "Couleur Porte Gauche", lockeur.Getdoors()[0].Gettype());
+                    label1.Text += string.Format("{0}, {1}" + "\n", "Couleur Porte Droite", lockeur.Getdoors()[1].Gettype());
+                }
+                
                 i += 1;
             }
         }
