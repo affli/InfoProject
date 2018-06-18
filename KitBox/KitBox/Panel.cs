@@ -8,6 +8,12 @@ namespace KitBox
 {
     class Panel : Product
     {
-        private string Orientation;
+        private string color;
+
+        public Panel(string ori, string col)
+        {
+            this.orientation = ori;
+            this.color = col;
+        }
     }
 }

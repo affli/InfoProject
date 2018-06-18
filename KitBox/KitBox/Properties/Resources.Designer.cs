@@ -63,9 +63,9 @@ namespace KitBox.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap About_52px {
+        internal static System.Drawing.Bitmap Brown {
             get {
-                object obj = ResourceManager.GetObject("About_52px", resourceCulture);
+                object obj = ResourceManager.GetObject("Brown", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,9 +73,9 @@ namespace KitBox.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Add_64px {
+        internal static System.Drawing.Bitmap Brown_1 {
             get {
-                object obj = ResourceManager.GetObject("Add_64px", resourceCulture);
+                object obj = ResourceManager.GetObject("Brown_1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,9 +83,9 @@ namespace KitBox.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Back_64px {
+        internal static System.Drawing.Bitmap Brown_Brown_Brown {
             get {
-                object obj = ResourceManager.GetObject("Back_64px", resourceCulture);
+                object obj = ResourceManager.GetObject("Brown_Brown_Brown", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,9 +93,9 @@ namespace KitBox.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Chevron_Right_52px {
+        internal static System.Drawing.Bitmap Brown_Brown_Brown_1 {
             get {
-                object obj = ResourceManager.GetObject("Chevron Right_52px", resourceCulture);
+                object obj = ResourceManager.GetObject("Brown_Brown_Brown_1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -103,9 +103,9 @@ namespace KitBox.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Customer_48px {
+        internal static System.Drawing.Bitmap Brown_Brown_Glass {
             get {
-                object obj = ResourceManager.GetObject("Customer_48px", resourceCulture);
+                object obj = ResourceManager.GetObject("Brown_Brown_Glass", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -113,9 +113,9 @@ namespace KitBox.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Delete_64px {
+        internal static System.Drawing.Bitmap Brown_Brown_Glass_1 {
             get {
-                object obj = ResourceManager.GetObject("Delete_64px", resourceCulture);
+                object obj = ResourceManager.GetObject("Brown_Brown_Glass_1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -123,9 +123,9 @@ namespace KitBox.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Door_50px {
+        internal static System.Drawing.Bitmap Brown_Brown_White {
             get {
-                object obj = ResourceManager.GetObject("Door_50px", resourceCulture);
+                object obj = ResourceManager.GetObject("Brown_Brown_White", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -133,9 +133,9 @@ namespace KitBox.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Edit_Property_52px {
+        internal static System.Drawing.Bitmap Brown_Brown_White_1 {
             get {
-                object obj = ResourceManager.GetObject("Edit Property_52px", resourceCulture);
+                object obj = ResourceManager.GetObject("Brown_Brown_White_1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -143,9 +143,9 @@ namespace KitBox.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Enter_Key_64px {
+        internal static System.Drawing.Bitmap Brown_Glass_Brown {
             get {
-                object obj = ResourceManager.GetObject("Enter Key_64px", resourceCulture);
+                object obj = ResourceManager.GetObject("Brown_Glass_Brown", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -153,9 +153,9 @@ namespace KitBox.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap free_garden_backgrounds_4 {
+        internal static System.Drawing.Bitmap Brown_Glass_Brown_1 {
             get {
-                object obj = ResourceManager.GetObject("free-garden-backgrounds-4", resourceCulture);
+                object obj = ResourceManager.GetObject("Brown_Glass_Brown_1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -163,9 +163,9 @@ namespace KitBox.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Help_48px {
+        internal static System.Drawing.Bitmap Brown_Glass_Glass {
             get {
-                object obj = ResourceManager.GetObject("Help_48px", resourceCulture);
+                object obj = ResourceManager.GetObject("Brown_Glass_Glass", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -173,9 +173,9 @@ namespace KitBox.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Manager_50px {
+        internal static System.Drawing.Bitmap Brown_Glass_Glass_1 {
             get {
-                object obj = ResourceManager.GetObject("Manager_50px", resourceCulture);
+                object obj = ResourceManager.GetObject("Brown_Glass_Glass_1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -183,9 +183,9 @@ namespace KitBox.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Menu_64px {
+        internal static System.Drawing.Bitmap Brown_Glass_White {
             get {
-                object obj = ResourceManager.GetObject("Menu_64px", resourceCulture);
+                object obj = ResourceManager.GetObject("Brown_Glass_White", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -193,9 +193,9 @@ namespace KitBox.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap New_Copy_64px {
+        internal static System.Drawing.Bitmap Brown_Glass_White_1 {
             get {
-                object obj = ResourceManager.GetObject("New Copy_64px", resourceCulture);
+                object obj = ResourceManager.GetObject("Brown_Glass_White_1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -203,9 +203,9 @@ namespace KitBox.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Password_64px {
+        internal static System.Drawing.Bitmap Brown_White_Brown {
             get {
-                object obj = ResourceManager.GetObject("Password_64px", resourceCulture);
+                object obj = ResourceManager.GetObject("Brown_White_Brown", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -213,9 +213,9 @@ namespace KitBox.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Restart_64px {
+        internal static System.Drawing.Bitmap Brown_White_Brown_1 {
             get {
-                object obj = ResourceManager.GetObject("Restart_64px", resourceCulture);
+                object obj = ResourceManager.GetObject("Brown_White_Brown_1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -223,9 +223,9 @@ namespace KitBox.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Sans_titre_1 {
+        internal static System.Drawing.Bitmap Brown_White_Glass {
             get {
-                object obj = ResourceManager.GetObject("Sans titre 1", resourceCulture);
+                object obj = ResourceManager.GetObject("Brown_White_Glass", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -233,9 +233,9 @@ namespace KitBox.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Sign_Out_50px1 {
+        internal static System.Drawing.Bitmap Brown_White_Glass_1 {
             get {
-                object obj = ResourceManager.GetObject("Sign Out_50px1", resourceCulture);
+                object obj = ResourceManager.GetObject("Brown_White_Glass_1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -243,9 +243,9 @@ namespace KitBox.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap table_office_chairs_glass_window_39163_1920x1080 {
+        internal static System.Drawing.Bitmap Brown_White_White {
             get {
-                object obj = ResourceManager.GetObject("table_office_chairs_glass_window_39163_1920x1080", resourceCulture);
+                object obj = ResourceManager.GetObject("Brown_White_White", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -253,9 +253,279 @@ namespace KitBox.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap table_room_wall_cabinet_76164_1920x1080 {
+        internal static System.Drawing.Bitmap Brown_White_White_1 {
             get {
-                object obj = ResourceManager.GetObject("table_room_wall_cabinet_76164_1920x1080", resourceCulture);
+                object obj = ResourceManager.GetObject("Brown_White_White_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap empty {
+            get {
+                object obj = ResourceManager.GetObject("empty", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap login {
+            get {
+                object obj = ResourceManager.GetObject("login", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap manager {
+            get {
+                object obj = ResourceManager.GetObject("manager", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap neworder {
+            get {
+                object obj = ResourceManager.GetObject("neworder", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap newuser {
+            get {
+                object obj = ResourceManager.GetObject("newuser", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap storekeeper {
+            get {
+                object obj = ResourceManager.GetObject("storekeeper", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap view {
+            get {
+                object obj = ResourceManager.GetObject("view", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap White {
+            get {
+                object obj = ResourceManager.GetObject("White", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap White_1 {
+            get {
+                object obj = ResourceManager.GetObject("White_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap White_Brown_Brown {
+            get {
+                object obj = ResourceManager.GetObject("White_Brown_Brown", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap White_Brown_Brown_1 {
+            get {
+                object obj = ResourceManager.GetObject("White_Brown_Brown_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap White_Brown_Glass {
+            get {
+                object obj = ResourceManager.GetObject("White_Brown_Glass", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap White_Brown_Glass_1 {
+            get {
+                object obj = ResourceManager.GetObject("White_Brown_Glass_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap White_Brown_White {
+            get {
+                object obj = ResourceManager.GetObject("White_Brown_White", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap White_Brown_White_1 {
+            get {
+                object obj = ResourceManager.GetObject("White_Brown_White_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap White_Glass_Brown {
+            get {
+                object obj = ResourceManager.GetObject("White_Glass_Brown", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap White_Glass_Brown_1 {
+            get {
+                object obj = ResourceManager.GetObject("White_Glass_Brown_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap White_Glass_Glass {
+            get {
+                object obj = ResourceManager.GetObject("White_Glass_Glass", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap White_Glass_Glass_1 {
+            get {
+                object obj = ResourceManager.GetObject("White_Glass_Glass_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap White_Glass_White {
+            get {
+                object obj = ResourceManager.GetObject("White_Glass_White", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap White_Glass_White_1 {
+            get {
+                object obj = ResourceManager.GetObject("White_Glass_White_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap White_White_Brown {
+            get {
+                object obj = ResourceManager.GetObject("White_White_Brown", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap White_White_Brown_1 {
+            get {
+                object obj = ResourceManager.GetObject("White_White_Brown_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap White_White_Glass {
+            get {
+                object obj = ResourceManager.GetObject("White_White_Glass", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap White_White_Glass_1 {
+            get {
+                object obj = ResourceManager.GetObject("White_White_Glass_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap White_White_White {
+            get {
+                object obj = ResourceManager.GetObject("White_White_White", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap White_White_White_1 {
+            get {
+                object obj = ResourceManager.GetObject("White_White_White_1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

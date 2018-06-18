@@ -8,6 +8,12 @@ namespace KitBox
 {
     class Classic_Door
     {
-        private bool Slot;
+        bool Slot;
+        string color;
+
+        public void Setinfo()
+        {
+
+        }
     }
 }

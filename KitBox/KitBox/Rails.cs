@@ -8,6 +8,12 @@ namespace KitBox
 {
     class Rails : Product
     {
-        private string Orientation;
+        private bool groove;
+
+        public void Setinfo(string ori, bool slot)
+        {
+            this.orientation = ori;
+            this.groove = slot;
+        }
     }
 }

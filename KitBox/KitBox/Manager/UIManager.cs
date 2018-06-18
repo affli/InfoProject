@@ -17,40 +17,59 @@ namespace KitBox
             InitializeComponent();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void catalogue_button_Click(object sender, EventArgs e)
         {
+            this.BackgroundImage = null;
             this.Controls.Clear();
-            this.Controls.Add(new UIUpdateCatalogue());
+            this.Controls.Add(new UINewOrder("Manager"));
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void providers_button_Click(object sender, EventArgs e)
         {
+            this.BackgroundImage = null;
             this.Controls.Clear();
             this.Controls.Add(new UIProviders());
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void stocks_button_Click(object sender, EventArgs e)
         {
+            this.BackgroundImage = null;
             this.Controls.Clear();
-            this.Controls.Add(new UIStocks());
+            this.Controls.Add(new UIStock());
         }
 
-        private void button5_Click(object sender, EventArgs e)
+        private void orders_button_Click(object sender, EventArgs e)
         {
+            this.BackgroundImage = null;
             this.Controls.Clear();
             this.Controls.Add(new UIOrders());
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
+        private void catalogue_button_MouseEnter(object sender, EventArgs e)
+        {
+            catalogue_button.Cursor = Cursors.Hand;
+        }
+
+        private void providers_button_MouseEnter(object sender, EventArgs e)
+        {
+            providers_button.Cursor = Cursors.Hand;
+        }
+
+        private void stocks_button_MouseEnter(object sender, EventArgs e)
+        {
+            stocks_button.Cursor = Cursors.Hand;
+        }
+
+        private void orders_button_MouseEnter(object sender, EventArgs e)
+        {
+            orders_button.Cursor = Cursors.Hand;
+        }
+
+        private void back_button_Click(object sender, EventArgs e)
         {
             this.BackgroundImage = null;
             this.Controls.Clear();
             this.Controls.Add(new LaunchScreen());
-        }
-
-        private void pictureBox6_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
         }
     }
 }

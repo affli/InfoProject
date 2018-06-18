@@ -8,6 +8,6 @@ namespace KitBox
 {
     class Cleat : Product
     {
-        private string Orientation;
+        string orientation = "vertical";
     }
 }

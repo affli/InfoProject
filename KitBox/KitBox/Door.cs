@@ -6,7 +6,18 @@ using System.Threading.Tasks;
 
 namespace KitBox
 {
-    class Door
+    class Door : Product
     {
+        private string type;
+
+        public Door(string value)
+        {
+            this.type = value;
+        }
+
+        public string Gettype()
+        {
+            return type;
+        }
     }
 }

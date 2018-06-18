@@ -9,20 +9,63 @@ namespace KitBox
     class Cabinet
     {
         private int NbLocker;
-        private int Totalprice;
-        private List<Product> Elements = new List<Product>();
+        int Totalprice;
+        private List<Locker> Lockerlist = new List<Locker>();
+        private Support_Angle support = new Support_Angle();
+        private int width;
+        private int depth;
+        private int height;
 
-        public void AddLocker(int NbLocker)
+        public void Setinfo(int width, int depth)
         {
-
+            this.width = width;
+            this.depth = depth;
         }
-        public void DeleteLocker(int NbLocker)
-        {
 
-        }
-        public int GetSomme(List<Product> Elements)
+        public int Getdepth()
         {
-            return Totalprice;
+            return depth;
+        }
+
+        public int Getwidth()
+        {
+            return width;
+        }
+
+        public int Getheight()
+        {
+            return height;
+        }
+
+        public Support_Angle Getsupport()
+        {
+            return support;
+        }
+
+        public void Setheight(int value)
+        {
+            this.height = value;
+            this.support.Setheight(value);
+        }
+
+        public void AddLocker(Locker value)
+        {
+            Lockerlist.Add(value);
+        }
+
+        public int get_NbLocker()
+        {
+            return NbLocker;
+        }
+
+        public List<Locker> Getlocker()
+        {
+            return Lockerlist;
+        }
+
+        public void Empty()
+        {
+            Lockerlist.Clear();
         }
     }
 }

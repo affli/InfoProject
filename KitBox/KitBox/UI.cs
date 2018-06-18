@@ -10,8 +10,11 @@ using System.Windows.Forms;
 
 namespace KitBox
 {
-    public partial class UI : Form
+    partial class UI : Form
     {
+        static Cabinet furniture = new Cabinet();
+        static Client client = new Client();
+
         public UI()
         {
             InitializeComponent();
@@ -20,6 +23,16 @@ namespace KitBox
         private void UI_Load(object sender, EventArgs e)
         {
             this.Controls.Add(new LaunchScreen());
+        }
+
+        public static Cabinet Cabinet()
+        {
+            return furniture;
+        }
+
+        public static Client Client()
+        {
+            return client;
         }
     }
 }

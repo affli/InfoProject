@@ -7,108 +7,66 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Globalization;
 using MySql.Data.MySqlClient;
 
 namespace KitBox
 {
     public partial class UILogin : UserControl
     {
-        MySqlConnection connection = new MySqlConnection("server = localhost; uid = root; database = kitbox;");
-
         public UILogin()
         {
             InitializeComponent();
         }
 
-        private void button3_Click(object sender, EventArgs e)
-        {
-            this.BackgroundImage = null;
-            this.Controls.Clear();
-            this.Controls.Add(new UIRegister());
-        }
-
-        private void UIOrderManager_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-            if (textBox1.Text.Equals(""))
-            {
-                MessageBox.Show("Please fill in your customer ID.", "Error",
-                MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-
-            else
-            {
-                Dictionary<string, string> userInfo = new Dictionary<string, string>();
-
-                try
-                {
-                    connection.Open();
-                    MySqlCommand sqlCmd1 = new MySqlCommand("SELECT * FROM client WHERE client_id='" + textBox1.Text + "'", connection);
-                    MySqlDataReader myReader = sqlCmd1.ExecuteReader();
-                    while (myReader.Read())
-                    {
-                        userInfo.Add("client_id", myReader.GetString(0));
-                        userInfo.Add("name", myReader.GetString(1));
-                    }
-
-                    string test = userInfo["client_id"];
-
-                    if (test == textBox1.Text)
-                    {
-                        this.BackgroundImage = null;
-                        this.Controls.Clear();
-                        this.Controls.Add(new UIQS());
-                    }
-                    else
-                    {
-                        MessageBox.Show("Please check your customer ID.", "Error",
-                        MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    }
-
-                }
-
-                catch
-                {
-                    MessageBox.Show("Please check your customer ID.", "Error",
-                    MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
-            }
-        }
-
-        private void textBox1_KeyDown(object sender, KeyEventArgs e)
-        {
-            if (e.KeyCode == Keys.Enter)
-            {
-                button4.PerformClick();
-            }
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("In development.\r\n", "KitBox");
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
+        private void back_button_Click(object sender, EventArgs e)
         {
             this.BackgroundImage = null;
             this.Controls.Clear();
             this.Controls.Add(new LaunchScreen());
         }
 
-        private void pictureBox3_Click(object sender, EventArgs e)
+        private void new_customer_button_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            this.BackgroundImage = null;
+            this.Controls.Clear();
+            this.Controls.Add(new UINewCustomer());
         }
 
+        private void continue_order_button_Click(object sender, EventArgs e)
+        {
+            MySqlConnection connection = new MySqlConnection("server = localhost; uid = root; database = kitbox;");
+
+            connection.Open();
+            MySqlCommand sqlCmd1 = new MySqlCommand("SELECT * FROM client WHERE client_id LIKE '" + textBox1.Text + "'", connection);
+            MySqlDataReader myReader1 = sqlCmd1.ExecuteReader();
+
+            while (myReader1.Read())
+            {
+                this.BackgroundImage = null;
+                this.Controls.Clear();
+                this.Controls.Add(new UINewOrder());
+            }
+            connection.Close();
+        }
+
+        private void new_customer_button_MouseEnter(object sender, EventArgs e)
+        {
+            new_customer_button.Cursor = Cursors.Hand;
+        }
+
+        private void back_button_MouseEnter(object sender, EventArgs e)
+        {
+            back_button.Cursor = Cursors.Hand;
+        }
+
+        private void forget_id_button_MouseEnter(object sender, EventArgs e)
+        {
+            forget_id_button.Cursor = Cursors.Hand;
+        }
+
+        private void continue_order_button_MouseEnter(object sender, EventArgs e)
+        {
+            continue_order_button.Cursor = Cursors.Hand;
+        }
     }
 }
