@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1:3306
--- Généré le :  mar. 19 juin 2018 à 12:01
+-- Généré le :  mar. 19 juin 2018 à 12:17
 -- Version du serveur :  5.7.19
 -- Version de PHP :  5.6.31
 
@@ -35,15 +35,14 @@ CREATE TABLE IF NOT EXISTS `client` (
   `email` varchar(30) DEFAULT NULL,
   `phonenum` varchar(30) NOT NULL,
   PRIMARY KEY (`client_id`)
-) ENGINE=MyISAM AUTO_INCREMENT=43 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=44 DEFAULT CHARSET=utf8;
 
 --
 -- Déchargement des données de la table `client`
 --
 
 INSERT INTO `client` (`client_id`, `name`, `email`, `phonenum`) VALUES
-(42, '', '', ''),
-(41, '', '', '');
+(43, 'p', 'p', 'p');
 
 -- --------------------------------------------------------
 
@@ -92,14 +91,14 @@ CREATE TABLE IF NOT EXISTS `orders` (
   `Rails_Lateral` int(11) NOT NULL,
   `supportangle` int(11) NOT NULL,
   PRIMARY KEY (`command_id`)
-) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=11 DEFAULT CHARSET=latin1;
 
 --
 -- Déchargement des données de la table `orders`
 --
 
 INSERT INTO `orders` (`command_id`, `cleat`, `classicdoor`, `glassdoor`, `Panel_HB`, `Panel_GD`, `Panel_AR`, `Rails_Front`, `Rails_Back`, `Rails_Lateral`, `supportangle`) VALUES
-(1, 12, 6, 0, 6, 6, 3, 6, 6, 12, 4);
+(10, 12, 6, 0, 6, 6, 3, 6, 6, 12, 4);
 
 -- --------------------------------------------------------
 

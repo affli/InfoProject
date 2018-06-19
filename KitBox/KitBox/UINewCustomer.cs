@@ -28,7 +28,7 @@ namespace KitBox
 
         private void next_button_Click(object sender, EventArgs e)
         {
-            if(textBox1.Text == "" || textBox2.Text == "" || textBox3.Text == "")
+            if (textBox1.Text == "" || textBox2.Text == "" || textBox3.Text == "")
             {
                 MessageBox.Show("Please fill in the boxes");
             }
