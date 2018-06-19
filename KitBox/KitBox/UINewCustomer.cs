@@ -28,13 +28,21 @@ namespace KitBox
 
         private void next_button_Click(object sender, EventArgs e)
         {
-            client.Setname(textBox1.Text);
-            client.Setemail(textBox2.Text);
-            client.Setphonenumber(textBox3.Text);
+            if(textBox1.Text == "" || textBox2.Text == "" || textBox3.Text == "")
+            {
+                MessageBox.Show("Please fill in the boxes");
+            }
+            else
+            {
+                client.Setname(textBox1.Text);
+                client.Setemail(textBox2.Text);
+                client.Setphonenumber(textBox3.Text);
 
-            this.BackgroundImage = null;
-            this.Controls.Clear();
-            this.Controls.Add(new UINewOrder());
+                this.BackgroundImage = null;
+                this.Controls.Clear();
+                this.Controls.Add(new UINewOrder());
+            }
+
         }
 
         private void back_button_MouseEnter(object sender, EventArgs e)
