@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using KitBox.Manager;
 
 namespace KitBox
 {
@@ -70,6 +71,17 @@ namespace KitBox
             this.BackgroundImage = null;
             this.Controls.Clear();
             this.Controls.Add(new LaunchScreen());
+        }
+
+        private void customer_button_Click(object sender, EventArgs e)
+        {
+            this.BackgroundImage = null;
+            this.Controls.Clear();
+            this.Controls.Add(new UICustomerOrders());
+        }
+        private void customer_button_MouseEnter(object sender, EventArgs e)
+        {
+            customer_button.Cursor = Cursors.Hand;
         }
     }
 }

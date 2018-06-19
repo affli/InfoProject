@@ -34,6 +34,7 @@
             this.stocks_button = new System.Windows.Forms.Button();
             this.orders_button = new System.Windows.Forms.Button();
             this.back_button = new System.Windows.Forms.Button();
+            this.customer_button = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // catalogue_button
@@ -125,12 +126,31 @@
             this.back_button.UseVisualStyleBackColor = false;
             this.back_button.Click += new System.EventHandler(this.back_button_Click);
             // 
+            // customer_button
+            // 
+            this.customer_button.BackColor = System.Drawing.Color.Transparent;
+            this.customer_button.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.customer_button.FlatAppearance.BorderSize = 0;
+            this.customer_button.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.customer_button.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.customer_button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.customer_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
+            this.customer_button.ForeColor = System.Drawing.Color.Black;
+            this.customer_button.Location = new System.Drawing.Point(485, 327);
+            this.customer_button.Name = "customer_button";
+            this.customer_button.Size = new System.Drawing.Size(295, 41);
+            this.customer_button.TabIndex = 50;
+            this.customer_button.Text = "Customer Orders";
+            this.customer_button.UseVisualStyleBackColor = false;
+            this.customer_button.Click += new System.EventHandler(this.customer_button_Click);
+            // 
             // UIManager
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Controls.Add(this.customer_button);
             this.Controls.Add(this.back_button);
             this.Controls.Add(this.orders_button);
             this.Controls.Add(this.stocks_button);
@@ -149,5 +169,6 @@
         private System.Windows.Forms.Button stocks_button;
         private System.Windows.Forms.Button orders_button;
         private System.Windows.Forms.Button back_button;
+        private System.Windows.Forms.Button customer_button;
     }
 }

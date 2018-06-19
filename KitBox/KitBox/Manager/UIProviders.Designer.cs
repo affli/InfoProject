@@ -35,12 +35,14 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(19, 99);
+            this.button1.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
+            this.button1.Location = new System.Drawing.Point(19, 82);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(118, 23);
+            this.button1.Size = new System.Drawing.Size(119, 48);
             this.button1.TabIndex = 46;
             this.button1.Text = "Add";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // listBox1

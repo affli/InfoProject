@@ -40,8 +40,8 @@ namespace KitBox
                 for (int i = 0; i < Numb.Count; i++)
                 {
                     Button button = new Button();
-                    button.Location = new Point(900, 100 + 43 * i);
-                    button.Size = new Size(30, 30);
+                    button.Location = new Point(900, 150 + 43 * i);
+                    button.Size = new Size(45, 30);
                     button.Name = "Del_" + Numb[i];
                     button.Text = "Del " + (i + 1).ToString();
                     button.Click += new EventHandler(this.Button_Click);
