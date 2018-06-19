@@ -113,8 +113,6 @@ namespace KitBox
         {
             MySqlConnection connection = new MySqlConnection("server = localhost; uid = root; database = kitbox;");
 
-            Console.WriteLine("test" + client.Getname());
-
             try
             {
                 string insertQuery = "INSERT INTO client(name, email, phonenum) VALUES('" + client.Getname() + "','" + client.Getemail() + "','" + client.Getphonenumber() + "')";
@@ -141,7 +139,7 @@ namespace KitBox
             {
                 int i = 1;
                 DataTable dtbl = MakeDataTable("Order Sheet");
-                string test = solutionpath + "\\KitBox\\bin\\Debug\\Bills\\bill_" + i + ".pdf";
+                string test = solutionpath + "\\KitBox\\bin\\Debug\\Bills\\order_" + i + ".pdf";
                 i += 1;
 
                 ExportDataTableToPdf(dtbl, @test, "Order Sheet");
@@ -190,6 +188,7 @@ namespace KitBox
                 bill.Columns.Add("Total");
             }
 
+            int i = 1;
             foreach (Locker lockeur in cabinet.Getlocker())
             {
 
@@ -290,6 +289,8 @@ namespace KitBox
                     {
                         bill.Rows.Add(i, "COUPEL", "Coupelles", 2);
                     }
+
+                    total_price += Convert.ToDouble(0.02 * 2);
                 }
 
                 else if (color_code_G != "VE" && color_code_D == "VE" || color_code_D != "VE" && color_code_G == "VE")
@@ -302,7 +303,11 @@ namespace KitBox
                     {
                         bill.Rows.Add(i, "COUPEL", "Coupelles", 1);
                     }
+
+                    total_price += Convert.ToDouble(0.01 * 1);
                 }
+
+
 
                 //Add Panneau AR
 
@@ -347,6 +352,7 @@ namespace KitBox
                         price = Math.Round(Convert.ToDouble(price), 2).ToString("0.00").ToString();
 
                         total_price += Convert.ToDouble(price);
+                        total_price += Convert.ToDouble(price);
                         total_price = Convert.ToDouble(Math.Round(total_price, 2).ToString("0.00"));
                     }
                     connection.Close();
@@ -377,6 +383,7 @@ namespace KitBox
                         price = Math.Round(Convert.ToDouble(price), 2).ToString("0.00").ToString();
 
                         total_price += Convert.ToDouble(price);
+                        total_price += Convert.ToDouble(price);
                         total_price = Convert.ToDouble(Math.Round(total_price, 2).ToString("0.00"));
                     }
                     connection.Close();
@@ -404,6 +411,9 @@ namespace KitBox
                         price = myReader1.GetString(0);
                         price = Math.Round(Convert.ToDouble(price), 2).ToString("0.00").ToString();
 
+                        total_price += Convert.ToDouble(price);
+                        total_price += Convert.ToDouble(price);
+                        total_price += Convert.ToDouble(price);
                         total_price += Convert.ToDouble(price);
                         total_price = Convert.ToDouble(Math.Round(total_price, 2).ToString("0.00"));
                     }
@@ -433,6 +443,9 @@ namespace KitBox
                         price = Math.Round(Convert.ToDouble(price), 2).ToString("0.00").ToString();
 
                         total_price += Convert.ToDouble(price);
+                        total_price += Convert.ToDouble(price);
+                        total_price += Convert.ToDouble(price);
+                        total_price += Convert.ToDouble(price);
                         total_price = Convert.ToDouble(Math.Round(total_price, 2).ToString("0.00"));
                     }
                     connection.Close();
@@ -460,6 +473,7 @@ namespace KitBox
                         price = myReader1.GetString(0);
                         price = Math.Round(Convert.ToDouble(price), 2).ToString("0.00").ToString();
 
+                        total_price += Convert.ToDouble(price);
                         total_price += Convert.ToDouble(price);
                         total_price = Convert.ToDouble(Math.Round(total_price, 2).ToString("0.00"));
                     }
@@ -489,6 +503,7 @@ namespace KitBox
                         price = Math.Round(Convert.ToDouble(price), 2).ToString("0.00").ToString();
 
                         total_price += Convert.ToDouble(price);
+                        total_price += Convert.ToDouble(price);
                         total_price = Convert.ToDouble(Math.Round(total_price, 2).ToString("0.00"));
                     }
                     connection.Close();
@@ -501,53 +516,15 @@ namespace KitBox
                     {
                         bill.Rows.Add(i, "TRF" + cabinet.Getwidth(), "Traverse AV", 2);
                     }
-
-
-                        //MySqlConnection connection2 = new MySqlConnection("server = localhost; uid = root; database = kitbox;");
-                        //string insertQuery = "INSERT INTO orders(order_id, order_code, quantity) VALUES(NULL,'" + "TRF" + items["Width"] +"',"+ "'2'"+")";
-                        //connection2.Open();
-                        //MySqlCommand command = new MySqlCommand(insertQuery, connection2);
-
-                        //if (command.ExecuteNonQuery() == 1)
-                        //{
-
-                        //}
-                        //else
-                        //{
-                        //    MessageBox.Show("Data Not Inserted.", "Error",
-                        //    MessageBoxButtons.OK, MessageBoxIcon.Error);
-                        //}
-                        //connection2.Close();
                 }
-
-
-
-                ////Add Cornières COR
-                //if (items.ContainsKey("Height_" + i) && items.ContainsKey("Width") && items.ContainsKey("Color_Cabinet_" + i))
-                //{
-                //    MySqlConnection connection = new MySqlConnection("server = localhost; uid = root; database = catalogue;");
-                //    connection.Open();
-                //    MySqlCommand sqlCmd1 = new MySqlCommand("SELECT Prix_Client FROM cornières WHERE Code=" + "'COR" + items["Height_" + i] + items["Width"] + code_Color_Cabinet + "'", connection);
-                //    MySqlDataReader myReader1 = sqlCmd1.ExecuteReader();
-
-                //    while (myReader1.Read())
-                //    {
-                //        price = myReader1.GetString(0);
-                //        total = Convert.ToDouble(namebre_Cabinets) * Convert.ToDouble(price);
-                //        total_price += total;
-                //    }
-                //    connection.Close();
-
-                //    bill.Rows.Add("COR" + items["Height_" + i] + items["Width"] + code_Color_Cabinet, "Panneau Ar", price, namebre_Cabinets, total);
-                //}
-
-                //break;
             }
 
             if (type != "Order Sheet")
             {
-                bill.Rows.Add("", "", "", "Total:", total_price + " €");
+                bill.Rows.Add("", "", "", "", "Total:", total_price + " €");
             }
+
+            i += 1;
 
             return bill;
         }
@@ -660,6 +637,27 @@ namespace KitBox
         private void back_button_MouseEnter(object sender, EventArgs e)
         {
             back_button.Cursor = Cursors.Hand;
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            try
+            {
+                int i = 1;
+                DataTable dtbl = MakeDataTable("Bill");
+                string test = solutionpath + "\\KitBox\\bin\\Debug\\Bills\\bill_" + i + ".pdf";
+                i += 1;
+
+                ExportDataTableToPdf(dtbl, @test, "Bill");
+                if (checkBox1.Checked)
+                {
+                    System.Diagnostics.Process.Start(@test);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error Message");
+            }
         }
     }
 }
