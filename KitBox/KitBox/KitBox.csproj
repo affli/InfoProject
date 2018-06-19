@@ -77,6 +77,12 @@
       <DependentUpon>LaunchScreen.cs</DependentUpon>
     </Compile>
     <Compile Include="Locker.cs" />
+    <Compile Include="Manager\UICustomerOrders.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Manager\UICustomerOrders.Designer.cs">
+      <DependentUpon>UICustomerOrders.cs</DependentUpon>
+    </Compile>
     <Compile Include="Panel.cs" />
     <Compile Include="Product.cs" />
     <Compile Include="Program.cs" />
@@ -180,6 +186,9 @@
     <EmbeddedResource Include="LaunchScreen.resx">
       <DependentUpon>LaunchScreen.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Manager\UICustomerOrders.resx">
+      <DependentUpon>UICustomerOrders.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Manager\UIOrders.resx">
       <DependentUpon>UIOrders.cs</DependentUpon>
     </EmbeddedResource>
@@ -246,6 +255,7 @@
     <Content Include="docs\MySqlParameter.xml" />
     <Content Include="docs\MySqlParameterCollection.xml" />
     <Content Include="docs\MySqlTransaction.xml" />
+    <None Include="Resources\35755784_2024762411175745_3571834776337776640_n.png" />
     <None Include="Resources\manager.png" />
     <None Include="Resources\login.png" />
     <None Include="Resources\newuser.png" />

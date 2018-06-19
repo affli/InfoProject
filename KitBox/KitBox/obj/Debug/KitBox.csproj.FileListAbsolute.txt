@@ -164,3 +164,30 @@ C:\Users\Mohamad Mroue\Desktop\InfoProject-38c9fe03a5d5098eeaf27c7b72a47a46a3901
 C:\Users\Mohamad Mroue\Desktop\InfoProject-38c9fe03a5d5098eeaf27c7b72a47a46a390194e\KitBox\KitBox\obj\Debug\KitBox.csproj.CoreCompileInputs.cache
 C:\Users\Mohamad Mroue\Desktop\InfoProject-38c9fe03a5d5098eeaf27c7b72a47a46a390194e\KitBox\KitBox\obj\Debug\KitBox.exe
 C:\Users\Mohamad Mroue\Desktop\InfoProject-38c9fe03a5d5098eeaf27c7b72a47a46a390194e\KitBox\KitBox\obj\Debug\KitBox.pdb
+C:\Users\ILAS\Desktop\KitBox\KitBox\bin\Debug\KitBox.exe.config
+C:\Users\ILAS\Desktop\KitBox\KitBox\bin\Debug\KitBox.exe
+C:\Users\ILAS\Desktop\KitBox\KitBox\bin\Debug\KitBox.pdb
+C:\Users\ILAS\Desktop\KitBox\KitBox\bin\Debug\MySql.Data.dll
+C:\Users\ILAS\Desktop\KitBox\KitBox\bin\Debug\MySql.Data.xml
+C:\Users\ILAS\Desktop\KitBox\KitBox\obj\Debug\KitBox.csprojResolveAssemblyReference.cache
+C:\Users\ILAS\Desktop\KitBox\KitBox\obj\Debug\KitBox.LaunchScreen.resources
+C:\Users\ILAS\Desktop\KitBox\KitBox\obj\Debug\KitBox.Manager.UICustomerOrders.resources
+C:\Users\ILAS\Desktop\KitBox\KitBox\obj\Debug\KitBox.UIOrders.resources
+C:\Users\ILAS\Desktop\KitBox\KitBox\obj\Debug\KitBox.UIProviders.resources
+C:\Users\ILAS\Desktop\KitBox\KitBox\obj\Debug\KitBox.Properties.Resources.resources
+C:\Users\ILAS\Desktop\KitBox\KitBox\obj\Debug\KitBox.UI.resources
+C:\Users\ILAS\Desktop\KitBox\KitBox\obj\Debug\KitBox.UIManagerLogin.resources
+C:\Users\ILAS\Desktop\KitBox\KitBox\obj\Debug\KitBox.UIAddProvider.resources
+C:\Users\ILAS\Desktop\KitBox\KitBox\obj\Debug\KitBox.UIAddStock.resources
+C:\Users\ILAS\Desktop\KitBox\KitBox\obj\Debug\KitBox.UIAddOrder.resources
+C:\Users\ILAS\Desktop\KitBox\KitBox\obj\Debug\KitBox.UILogin.resources
+C:\Users\ILAS\Desktop\KitBox\KitBox\obj\Debug\KitBox.UIManager.resources
+C:\Users\ILAS\Desktop\KitBox\KitBox\obj\Debug\KitBox.UINewCustomer.resources
+C:\Users\ILAS\Desktop\KitBox\KitBox\obj\Debug\KitBox.UINewOrder.resources
+C:\Users\ILAS\Desktop\KitBox\KitBox\obj\Debug\KitBox.UIStock.resources
+C:\Users\ILAS\Desktop\KitBox\KitBox\obj\Debug\KitBox.UIStockResearch.resources
+C:\Users\ILAS\Desktop\KitBox\KitBox\obj\Debug\KitBox.UIValidate.resources
+C:\Users\ILAS\Desktop\KitBox\KitBox\obj\Debug\KitBox.csproj.GenerateResource.Cache
+C:\Users\ILAS\Desktop\KitBox\KitBox\obj\Debug\KitBox.csproj.CoreCompileInputs.cache
+C:\Users\ILAS\Desktop\KitBox\KitBox\obj\Debug\KitBox.exe
+C:\Users\ILAS\Desktop\KitBox\KitBox\obj\Debug\KitBox.pdb
