@@ -18,8 +18,11 @@ namespace KitBox
         string solutionpath = Path.GetDirectoryName(Path.GetDirectoryName(Path.GetDirectoryName(Directory.GetCurrentDirectory())));
         Cabinet cabinet = UI.Cabinet();
         Client client = UI.Client();
+        MySqlConnection connection = new MySqlConnection("server = localhost; uid = root; database = kitbox;");
 
         Dictionary<string, int> component = new Dictionary<string, int>();
+        Dictionary<string, int> comp = new Dictionary<string, int>();
+
         int i = 1;
 
         public UIValidate()
@@ -101,17 +104,79 @@ namespace KitBox
                 if (name.Length < 2)
                 {
                     label3.Text += string.Format("{0} {1}" + "\n", elem.Value + "x", name[0]);
+
                 }
                 else
                 {
                     label3.Text += string.Format("{0} {1}" + "\n", elem.Value + "x", name[1]);
                 }
+
+                foreach (string renam in name)
+                {
+                    string[] rename = renam.Split(' ');
+                    if (renam == "KitBox")
+                    {
+
+                    }
+                    else if (rename[0] == "White" || rename[0] == "Brown")
+                    {
+                        comp.Add("classicdoor", elem.Value);
+                    }
+                    else if (rename[0] == "Glass")
+                    {
+                        comp.Add("glassdoor", elem.Value);
+                    }
+                    else if (rename[0] == "Cleat")
+                    {
+                        comp.Add(rename[0], elem.Value);
+                    }
+                    else
+                    {
+                        comp.Add(renam, elem.Value);
+                    }
+                }
+
+                
+            }
+
+            if (comp.ContainsKey("classicdoor") == false)
+            {
+                comp.Add("classicdoor", 0);
+            }
+            if (comp.ContainsKey("glassdoor") == false)
+            {
+                comp.Add("glassdoor", 0);
+            }
+
+            try
+            {
+                string insertQuery = "INSERT INTO orders (cleat,classicdoor,glassdoor,Panel_HB,Panel_GD,Panel_AR,Rails_Front,Rails_Back,Rails_Lateral,supportangle) VALUES ('" + comp["Cleat"].ToString() + "','" + comp["classicdoor"].ToString() + "','" + comp["glassdoor"].ToString() + "','" + comp["Panel HB"].ToString() + "','" + comp["Panel GD"].ToString() + "','" + comp["Panel AR"].ToString() + "','" + comp["Rails Front"].ToString() + "','" + comp["Rails Back"].ToString() + "','" + comp["Rails Lateral"].ToString() + "','" + 4.ToString() + "')";
+                Console.WriteLine(insertQuery);
+
+                connection.Open();
+            
+                MySqlCommand command = new MySqlCommand(insertQuery, connection);
+
+                if (command.ExecuteNonQuery() == 1)
+                {
+
+                }
+                else
+                {
+                    MessageBox.Show("Data Not Inserted.", "Error",
+                    MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+            catch
+            {
+                MessageBox.Show("Impossible d'enregistrer", "Error",
+                 MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+            
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MySqlConnection connection = new MySqlConnection("server = localhost; uid = root; database = kitbox;");
 
             try
             {
